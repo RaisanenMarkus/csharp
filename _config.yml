@@ -1,10 +1,11 @@
 # Configuration
+# logo: "/assets/images/*.jpg"
 
+remote_theme: pmarsceill/just-the-docs
 title: C# Programming
 description: C# Programming Class
-remote_theme: pmarsceill/just-the-docs
-# logo: "/assets/images/Centria_amk_eng.jpg"
 color_scheme: bch
+
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
