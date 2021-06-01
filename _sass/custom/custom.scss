@@ -15,6 +15,9 @@
           rgba($feedback-color, 0) 100%
         );
       }
+      &:hover ~ .nav-list-expander{
+        color: $sidebar-color;
+      }
     }
     .nav-list-expander{
       color: $nav-child-link-color;    
