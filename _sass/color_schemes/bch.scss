@@ -81,6 +81,20 @@ $link-color: $bch-musta;
 .site-footer { display:none; }
 
 
+// Site navigation width
+
+.site-nav,
+.site-header,
+.site-footer {
+  width: 100%;
+  
+  @include mq(lg) {
+    width: 325px;
+  }
+  
+}
+
+
 //
 // Spacing
 //
