@@ -147,3 +147,11 @@ $media-queries: (
   lg: $content-width + $nav-width,
   xl: 1400px,
 ) !default;
+
+//
+// Preferences 1.6.2021
+//
+
+.nav-list-link{
+  color: $nav-child-link-color;
+}
