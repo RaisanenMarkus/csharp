@@ -81,18 +81,9 @@ $link-color: $bch-musta;
 .site-footer { display:none; }
 
 
-// Site navigation width
+// Site editing 
 
-.site-nav,
-.site-header,
-.site-footer {
-  width: 100%;
-  
-  @include mq(lg) {
-    width: 325px;
-  }
-  
-}
+.site-title {a:$bch-beige;}
 
 
 //
