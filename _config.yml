@@ -13,4 +13,4 @@ search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 
 # Footer text for the license
-footer_content: "Copyright &copy; 2021 Markus Räisänen. More information about <a href=\"https://github.com/RaisanenMarkus/csharp5/docs/license.md\">the licensing.</a>"
+footer_content: "Copyright &copy; 2021 Markus Räisänen. More information about <a href=\"/docs/license.md\">the licensing.</a>"
