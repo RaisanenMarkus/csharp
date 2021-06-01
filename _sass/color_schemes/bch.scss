@@ -151,7 +151,8 @@ $media-queries: (
 //
 // Preferences 1.6.2021
 //
-
-.nav-list-link{
-  color: $nav-child-link-color;
+.nav-list-item{
+  .nav-list-link{
+    color: $nav-child-link-color;
+  }
 }
