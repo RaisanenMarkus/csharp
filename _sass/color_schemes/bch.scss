@@ -151,10 +151,13 @@ $media-queries: (
 //
 // Preferences 1.6.2021
 //
-.nav-list-item{
-  .nav-list-link{
-    color: $nav-child-link-color;
-    
+
+.nav-list {
+  
+  .nav-list-item{
+    .nav-list-link{
+      color: $nav-child-link-color;
+      
       &:hover,
       &.active {
         background-image: linear-gradient(
@@ -164,9 +167,10 @@ $media-queries: (
           rgba($feedback-color, 0) 100%
         );
       }
-  }
-  .nav-list-expander{
-    color: $nav-child-link-color;
+    }
+    .nav-list-expander{
+      color: $nav-child-link-color;
+    }
   }
 }
 
@@ -190,6 +194,5 @@ $media-queries: (
   
   @include mq(lg) {
     width: 325px;
-  }
-  
+  }  
 }
