@@ -168,14 +168,6 @@ $media-queries: (
         }
       }
     }
-    .nav-list-link .nav-list-expander{
-          .nav-list-link:hover, 
-          .nav-list-link:active {
-            .nav-list-expander {
-              color: $sidebar-color;
-            }
-        }
-    }
     .nav-list-expander{
       color: $nav-child-link-color;
       
