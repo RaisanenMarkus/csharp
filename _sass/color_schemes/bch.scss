@@ -88,6 +88,14 @@ $link-color: $bch-musta;
     color: $bch-beige; 
   }
 }
+.site-title:hover {
+  background-image: linear-gradient(
+    -90deg,
+    rgba($feedback-color, 1) 0%,
+    rgba($feedback-color, 0.5) 50%,
+    rgba($feedback-color, 0) 100%
+  );
+}
 
 
 //
