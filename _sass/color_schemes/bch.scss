@@ -165,6 +165,10 @@ $media-queries: (
           rgba($feedback-color, 0.5) 50%,
           rgba($feedback-color, 0) 100%
         );
+        
+        .nav-list-expander{
+          color: $sidebar-color;
+        }
       }
     }
     .nav-list-expander{
