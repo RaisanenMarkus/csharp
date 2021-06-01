@@ -18,8 +18,7 @@
     }
     .nav-list-expander{
       color: $nav-child-link-color;    
-      &:hover, 
-      &.active {
+      &:hover {
         color: $sidebar-color;
       }
     }
