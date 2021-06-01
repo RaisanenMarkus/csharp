@@ -17,12 +17,6 @@
         );
       }
     }
-    &:hover,
-    &.active {
-      .nav-list-expander{
-        color: $sidebar-color;
-      }
-    }
   }
   .nav-list-expander{
     color: $nav-child-link-color;
@@ -55,3 +49,4 @@
     width: 325px;
   }  
 }
+
