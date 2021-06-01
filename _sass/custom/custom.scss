@@ -18,13 +18,11 @@
     }
     .nav-list-expander{
       color: $nav-child-link-color;    
-      &:hover {
+      &:hover, 
+      &.active {
         color: $sidebar-color;
       }
     }
-  }
-  .nav-list-item:hover ~ .nav-list-expander{
-    color: $sidebar-color;
   }
 }
 
