@@ -22,7 +22,7 @@
         color: $sidebar-color;
       }
     }
-    .nav-list-link:hover ~ .nav-list-expander{
+    .nav-list-link:hover + .nav-list-expander{
       color: $sidebar-color;
     }
   }
