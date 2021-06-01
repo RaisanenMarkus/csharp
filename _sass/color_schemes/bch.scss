@@ -172,3 +172,14 @@ $media-queries: (
     rgba($feedback-color, 0) 100%
   );
 }
+
+.site-nav,
+.site-header,
+.site-footer {
+  width: 100%;
+  
+  @include mq(lg) {
+    width: 325px;
+  }
+  
+}
