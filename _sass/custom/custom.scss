@@ -5,8 +5,7 @@
 .nav-list {
   .nav-list-item{
     .nav-list-link{
-      color: $nav-child-link-color;
-      
+      color: $nav-child-link-color;      
       &:hover,
       &.active {
         background-image: linear-gradient(
@@ -17,15 +16,15 @@
         );
       }
     }
+    .nav-list-expander{
+      color: $nav-child-link-color;    
+      &:hover {
+        color: $sidebar-color;
+      }
+    }
   }
 }
 
-.nav-list-expander{
-  color: $nav-child-link-color;    
-  &:hover {
-    color: $sidebar-color;
-  }
-}
 
 .site-title{
   color: $body-background-color;
@@ -43,8 +42,7 @@
 .site-nav,
 .site-header,
 .site-footer {
-  width: 100%;
-  
+  width: 100%; 
   @include mq(lg) {
     width: 325px;
   }  
