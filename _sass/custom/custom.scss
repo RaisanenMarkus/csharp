@@ -22,9 +22,9 @@
         color: $sidebar-color;
       }
     }
-    .nav-list-link:hover + .nav-list-expander{
-      color: $sidebar-color;
-    }
+  }
+  .nav-list-item:hover ~ .nav-list-expander{
+    color: $sidebar-color;
   }
 }
 
