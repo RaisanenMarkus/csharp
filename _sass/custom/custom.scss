@@ -4,6 +4,12 @@
 
 .nav-list {
   .nav-list-item{
+    .nav-list-expander{
+      color: $nav-child-link-color;    
+      &:hover {
+        color: $sidebar-color;
+      }
+    }
     .nav-list-link{
       color: $nav-child-link-color;      
       &:hover,
@@ -15,10 +21,8 @@
           rgba($feedback-color, 0) 100%
         );
       }
-    }
-    .nav-list-expander{
-      color: $nav-child-link-color;    
-      &:hover {
+      &:hover,
+      &.active ~ .niv-list-expander{
         color: $sidebar-color;
       }
     }
