@@ -7,3 +7,6 @@ search_enabled: true
 
 # Enable support for hyphenated search words:
 search_tokenizer_separator: /[\s/]+/
+
+# Footer text for the license
+footer_content: "Copyright &copy; 2021 Markus Räisänen. More information about <a href=\"/license\">the licensing.</a>"
