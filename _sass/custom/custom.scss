@@ -21,10 +21,6 @@
           rgba($feedback-color, 0) 100%
         );
       }
-      &:hover,
-      &.active ~ .niv-list-expander{
-        color: $sidebar-color;
-      }
     }
   }
 }
