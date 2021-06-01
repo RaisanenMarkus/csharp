@@ -83,7 +83,11 @@ $link-color: $bch-musta;
 
 // Site editing 
 
-.site-title {a:$bch-beige;}
+.site-title {
+  a:link{
+    color: $bch-beige; 
+  }
+}
 
 
 //
