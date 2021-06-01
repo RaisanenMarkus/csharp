@@ -17,12 +17,12 @@
         );
       }
     }
-  }
-  .nav-list-expander{
-    color: $nav-child-link-color;
-    
-    &:hover {
-      color: $sidebar-color;
+    .nav-list-expander{
+      color: $nav-child-link-color;
+      
+      &:hover {
+        color: $sidebar-color;
+      }
     }
   }
 }
