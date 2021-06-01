@@ -1,4 +1,3 @@
-
 //
 // Preferences 1.6.2021
 //
@@ -20,8 +19,8 @@
       }
     }
     .nav-list-link .nav-list-expander{
-          nav-list-link:hover, 
-          nav-list-link:active {
+          .nav-list-link:hover, 
+          .nav-list-link:active {
             .nav-list-expander {
               color: $sidebar-color;
             }
