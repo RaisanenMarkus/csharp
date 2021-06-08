@@ -61,7 +61,7 @@ Personal account balance: 100
 ### EXERCISE_95:
 
 * In this exercise you'll practice creating a class.
-* [**CHECK THIS MATERIAL FOR HELP**](https://raisanenmarkus.github.io/part4/1/#creating-a-new-class)
+* [**CHECK THIS MATERIAL FOR HELP**](https://raisanenmarkus.github.io/csharp/part4/1/#creating-a-new-class)
 * Name the class **Dog** and the file **Dog.cs**.
 * Add the variables: private string name, private string breed and private int age. 
 * As a class diagram the class looks like this.
