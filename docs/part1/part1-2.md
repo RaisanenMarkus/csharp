@@ -210,4 +210,4 @@ False
 
 Convert Class is used to convert strings into multiple other types of variables. The full list is [**found here**](https://docs.microsoft.com/en-us/dotnet/api/system.convert?view=netframework-4.8).
 
-**You can now do the exercises for variables.**
+**You can now do the exercises for Variables.**
