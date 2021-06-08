@@ -328,4 +328,4 @@ Input an integer, 0 quits
 Amount of ones: 2
 ```
 
-**You can now do the exercises for repetition.**
+**You can now do the exercises for Repetition.**
