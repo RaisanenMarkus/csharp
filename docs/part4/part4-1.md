@@ -189,7 +189,7 @@ public class Person
 
 ## Defining Methods for an Object
 
-We know how to create an object and initialize its variables. An object needs methods to be able to do anything. As we've learned **a method** is a named section of source code inside a class which can be invoked.
+We now know how to create an object and initialize its variables. An object needs methods to be able to do anything. As we've learned **a method** is a named section of source code inside a class which can be invoked.
 
 ```cs
 public class Person
@@ -212,13 +212,13 @@ A method is written inside of the class beneath the constructor. The method name
 
 We've used the modifier **static** in some of the methods that we've written. The static modifier indicates that the method does not belong to an object and thus cannot be used to access any variables that belong to objects.
 
-Our methods **will not include the static keyword** if they're used to process information about objects created from a given class. If a method receives as parameters all the variables of which values it uses it can have static modifier.
+Going forward our methods **will not include the static keyword** if they're used to process information about objects created from a given class. If a method receives as parameters all the variables of which values it uses it can have a static modifier.
 
-In addition to the class name, instance variables and constructor the class diagram includes now the method PrintPerson(). Since the method comes with the **public** modifier the method name is prefixed with a plus sign. No parameters are defined for the method so nothing is put inside the method's round brackets. The method is also marked with **void** indicating that it does not return a value.
+The class name, instance variables, constructor and method PrintPerson() is now included in the class diagram. Since the method comes with the **public** modifier the method name is prefixed with a plus sign. No parameters are defined for the method so nothing is put inside the method's round brackets. The method is also marked with **void** indicating that it does not return a value.
 
 ![Class Diagram With Print](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/printperson.jpg)
 
-The method **PrintPerson()** contains one line of code that makes use of the instance variables **name** and **age**. The class diagram says nothing about its internal implementations. Instance variables are referred to with the prefix this. All of the object's variables are visible and available from within the method.
+The method **PrintPerson()** contains one line of code that makes use of the instance variables **name** and **age**. The class diagram says nothing about its internal implementations. Instance variables are referred to with the prefix **this**. All of the object's variables are visible and available from within the method.
 
 Let's create three persons in the main program and request them to print.
 
@@ -311,9 +311,9 @@ Antti, age 2 years
 Martin, age 0 years
 ```
 
-When the two objects are "born" they're both zero years old as **this.age = 0** is executed in the constructor. The **ada** object's GrowOlder() method is called once and **antti** object's GrowOlder is called twice. As the print output demonstrates the age of Ada is 1 years after growing older and for Antti it is 2. Calling the method on an object corresponding to Ada or Antti has no impact on the age of the other person object since each object instantiated from a class has its own instance variables.
+When the objects are "born" they're zero years old as **this.age = 0** is executed in the constructor. The **ada** object's GrowOlder() method is called once and **antti** object's GrowOlder() is called twice. As the print output demonstrates the age of Ada is 1 years after growing older and for Antti it is 2. Calling the method on an object corresponding to Ada or Antti has no impact on the age of the other person object since each object instantiated from a class has its own instance variables.
 
-The method can also contain conditional statements and loops. The GrowOlder method below limits aging to 100 years.
+The method can also contain conditional statements and loops. The GrowOlder() method below limits aging to 100 years.
 
 ```cs
 public class Person
@@ -507,7 +507,7 @@ Pekka's and Antti's combined age 3 years
 
 Methods can contain source code in the same way as other parts of our program. Methods can have conditionals or loops and other methods can also be called from them.
 
-Let's now write a method for the Person class that determines if the person is of legal age. The method returns a boolean, either **true** or **false**:
+Let's now write a method for the Person class that determines if the person is of legal age. The method returns a boolean either **true** or **false**:
 
 ```cs
 class Person
@@ -535,7 +535,7 @@ class Person
 }
 ```
 
-And let's test it out.
+Let's test it out.
 
 ```cs
 static void Main(string[] args)
@@ -554,31 +554,31 @@ static void Main(string[] args)
 
   if (antti.IsOfLegalAge())
   {
-    Console.Write("of legal age: ");
+    Console.Write("Legal age: ");
     antti.PrintPerson();
   }
   else
   {
-    Console.Write("underage: ");
+    Console.Write("Underage: ");
     antti.PrintPerson();
   }
 
   if (pekka.IsOfLegalAge())
   {
-    Console.Write("of legal age: ");
+    Console.Write("Legal age: ");
     pekka.PrintPerson();
   }
   else
   {
-    Console.Write("underage: ");
+    Console.Write("Underage: ");
     pekka.PrintPerson();
   }
 }
 ```
 
 ```console
-underage: Antti, age 1 years
-of legal age: Pekka, age 27 years
+Underage: Antti, age 1 years
+Legal age: Pekka, age 27 years
 ```
 
 Let's fine tune the solution a bit more. In its current form a person can only be printed in a way that includes both the name and the age. Situations exist where we may only want to know the name of an object. 
@@ -637,27 +637,27 @@ static void Main(string[] args)
 
   if (antti.IsOfLegalAge())
   {
-    Console.WriteLine(antti.name + " is of legal age");
+    Console.WriteLine(antti.name + " is of legal age.");
   }
   else
   {
-    Console.WriteLine(antti.name + " is underage");
+    Console.WriteLine(antti.name + " is underage.");
   }
 
   if (pekka.IsOfLegalAge())
   {
-    Console.WriteLine(pekka.name + " is of legal age");
+    Console.WriteLine(pekka.name + " is of legal age.");
   }
   else
   {
-    Console.WriteLine(pekka.name + " is underage ");
+    Console.WriteLine(pekka.name + " is underage.");
   }
 }
 ```
 
 ```console
-Antti is underage
-Pekka is of legal age
+Antti is underage.
+Pekka is of legal age.
 ```
 
 You can see that now we can call our person's name with simply adding **.name** after the object such as **antti.name**. Let's update our **age** variable to have a **get** method as well and remove the old ReturnAge() method. Now our class looks like this.
