@@ -127,4 +127,4 @@ else // otherwise
 }
 ```
 
-**You can now do the exercises for subproblems.**
+**You can now do the exercises for Subproblems.**
