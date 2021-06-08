@@ -1,5 +1,5 @@
 ---
-title: "Conditional and Comparison"
+title: "Conditionals and Comparison"
 parent: "Part 1 - The Beginning"
 permalink: /part1/4/
 nav_order: 4
@@ -309,4 +309,4 @@ Console.WriteLine(a.Equals(b));
 True
 ```
 
-**You can now do the exercises for conditionals.**
+**You can now do the exercises for Conditionals and Comparison.**
