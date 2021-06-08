@@ -391,4 +391,4 @@ The output of the method call **MultiplicationTable(3)** looks like this.
  3 6 9
 ```
 
-**You can now do the exercises for methods.**
+**You can now do the exercises for Methods.**
