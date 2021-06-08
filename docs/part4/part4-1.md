@@ -122,6 +122,10 @@ In the class diagram the variables associated with the class are defined as "var
 
 ![Class Diagram](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/person.jpg)
 
+<p align="center">
+  <img src="https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/person.jpg">
+</p>
+
 We have now defined a blueprint also know as the class for the Person object. Each new person object has the variables **name** and **age**, which are able to hold object specific values. The "state" of a person consists of the values assigned to their name and age.
 
 The person doesn't do anything yet, but we'll get there.
