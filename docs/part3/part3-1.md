@@ -290,3 +290,5 @@ for (int i = 0; i < numbers.Count; i++)
 ```
 
 Consider the difference of List index and its integer value. 
+
+**You can now do the exercises for Lists.**
