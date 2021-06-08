@@ -40,7 +40,7 @@ An object is always instantiated by calling a method that creates an object. In 
 
 A class lays out a blueprint for any objects that are instantiated from it. Let's draw from an analogy from outside the world of computers. Detached houses are most likely familiar to most and we can safely assume the existence of drawings somewhere that determine what exactly a detached house is to be like. A class is a blueprint. In other words it specifies what kinds of objects can be instantiated from it.
 
-![House blueprints](https://github.com/RaisanenMarkus/RaisanenMarkus.github.io/raw/master/assets/images/houses.jpg)
+![House blueprints](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/houses.jpg)
 
 Individual objects, detached houses in this case, are all created based on the same blueprint. They're instances of the same class. The states of objects and their attributes such as the wall color, building material of the roof, color of its foundations, doors' materials and color may all vary. The following is "an object of a detached house class".
 
