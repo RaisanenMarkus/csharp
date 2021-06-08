@@ -189,7 +189,7 @@ public class Person
 
 ## Defining Methods for an Object
 
-We know now how to create an object and initialize its variables. An object needs methods to be able to do anything. As we've learned **a method** is a named section of source code inside a class which can be invoked.
+We know how to create an object and initialize its variables. An object needs methods to be able to do anything. As we've learned **a method** is a named section of source code inside a class which can be invoked.
 
 ```cs
 public class Person
