@@ -228,4 +228,4 @@ Console.WriteLine(luvut[2]);
 
 Just like in Lists you can't access an index outside of the array.
 
-**You can now do the exercises for arrays.**
+**You can now do the exercises for Arrays.**
