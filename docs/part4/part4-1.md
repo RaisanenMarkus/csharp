@@ -118,6 +118,8 @@ Instance variables are written on the lines following the class definition **pub
 
 In the class diagram the variables associated with the class are defined as "variableName: variableType". The minus sign before the variable name indicates that the variable is encapsulated, it has the keyword private.
 
+<img align="center" src="https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/person.jpg">
+
 ![Class Diagram](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/person.jpg)
 
 We have now defined a blueprint also know as the class for the Person object. Each new person object has the variables **name** and **age**, which are able to hold object specific values. The "state" of a person consists of the values assigned to their name and age.
