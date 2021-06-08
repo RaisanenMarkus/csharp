@@ -261,4 +261,4 @@ Console.WriteLine("Valid numbers: " + validNumbers);
 Console.WriteLine("Invalid numbers: " + invalidNumbers);
 ```
 
-**You can now do the exercises for more loops.**
+**You can now do the exercises for More Loops.**
