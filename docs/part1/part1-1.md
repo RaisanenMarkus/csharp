@@ -312,5 +312,5 @@ Give a message: I want to print this
 Your message was: I want to print this  
 ```
 
-**You can now do the exercises for printing and reading.**
+**You can now do the exercises for Printing and Reading.**
 
