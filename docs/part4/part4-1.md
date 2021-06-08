@@ -44,7 +44,7 @@ A class lays out a blueprint for any objects that are instantiated from it. Let'
 
 Individual objects, detached houses in this case, are all created based on the same blueprint. They're instances of the same class. The states of objects and their attributes such as the wall color, building material of the roof, color of its foundations, doors' materials and color may all vary. The following is "an object of a detached house class".
 
-![Single house](https://github.com/RaisanenMarkus/RaisanenMarkus.github.io/raw/master/assets/images/singlehouse.jpg)
+![Single house](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/singlehouse.jpg)
 
 ## Creating Classes
 
