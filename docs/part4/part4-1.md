@@ -118,7 +118,7 @@ Instance variables are written on the lines following the class definition **pub
 
 In the class diagram the variables associated with the class are defined as "variableName: variableType". The minus sign before the variable name indicates that the variable is encapsulated, it has the keyword private.
 
-![Class Diagram](https://github.com/RaisanenMarkus/RaisanenMarkus.github.io/raw/master/assets/images/person.jpg)
+![Class Diagram](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/person.jpg)
 
 We have now defined a blueprint also know as the class for the Person object. Each new person object has the variables **name** and **age**, which are able to hold object specific values. The "state" of a person consists of the values assigned to their name and age.
 
@@ -158,7 +158,7 @@ The constructor's name is always the same as the class name. The class in the ex
 
 A few things to note: the constructor contains the expression **this.age = 0**. This expression sets the instance variable age of the newly created object to 0. The second expression **this.name = initialName** likewise assigns the string passed as a parameter to the instance variable name of the object created.
 
-![Class Diagram With Constructror](https://github.com/RaisanenMarkus/RaisanenMarkus.github.io/raw/master/assets/images/personconstructor.jpg)
+![Class Diagram With Constructror](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/personconstructor.jpg)
 
 If the programmer does not define a constructor for a class the C# compiler automatically creates a default one for it. A default constructor is a constructor that doesn't do anything apart from creating the object. The object's variables remain uninitialized. Generally the value of any object references will be null, meaning that they do not point to anything.
 
@@ -216,7 +216,7 @@ Our methods **will not include the static keyword** if they're used to process i
 
 In addition to the class name, instance variables and constructor the class diagram includes now the method PrintPerson(). Since the method comes with the **public** modifier the method name is prefixed with a plus sign. No parameters are defined for the method so nothing is put inside the method's round brackets. The method is also marked with **void** indicating that it does not return a value.
 
-![Class Diagram With Print](https://github.com/RaisanenMarkus/RaisanenMarkus.github.io/raw/master/assets/images/printperson.jpg)
+![Class Diagram With Print](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/printperson.jpg)
 
 The method **PrintPerson()** contains one line of code that makes use of the instance variables **name** and **age**. The class diagram says nothing about its internal implementations. Instance variables are referred to with the prefix this. All of the object's variables are visible and available from within the method.
 
@@ -274,7 +274,7 @@ public class Person
 
 The method is written inside the Person class just as the PrintPerson() method was. The method increments the value of the instance variable age by one. The class diagram also gets an update.
 
-![Class Diagram With Growth](https://github.com/RaisanenMarkus/RaisanenMarkus.github.io/raw/master/assets/images/persongrow.jpg)
+![Class Diagram With Growth](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/persongrow.jpg)
 
 Let's call the method and see what happens.
 
@@ -476,7 +476,7 @@ public class Person
 }
 ```
 
-![Class Diagram With Return](https://github.com/RaisanenMarkus/RaisanenMarkus.github.io/raw/master/assets/images/personreturn.jpg)
+![Class Diagram With Return](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/personreturn.jpg)
 
 Above you see the updated class diagram of our Person class. Let's illustrate how the method works.
 
