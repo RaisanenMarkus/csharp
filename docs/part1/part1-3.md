@@ -241,4 +241,4 @@ row 9: assign the value for variable third arvo to be printed
 row 9: print 28  
 ```
 
-**You can now do the exercises for calculations with numbers.**
+**You can now do the exercises for Calculations.**
