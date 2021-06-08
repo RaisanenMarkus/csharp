@@ -66,7 +66,9 @@ Personal account balance: 100
 * Add the variables: private string name, private string breed and private int age. 
 * As a class diagram the class looks like this.
 
-![Dog class diagram](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/dogclass.jpg)
+<p align="center">
+  <img src="https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/dogclass.jpg">
+</p>
 
 **NOTICE!** You have to give your Dog class **namespace exercise_95** for it to function!
 
@@ -76,7 +78,9 @@ Personal account balance: 100
 * Add the variables **private string code** and **private int seats** to the class. 
 * Then create a constructor **public Room(string classCode, int numberOfSeats)** through which values are assigned to the variables.
 
-![Room class diagram](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/roomclass.jpg)
+<p align="center">
+  <img src="https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/roomclass.jpg">
+</p>
 
 **NOTICE!** You have to give your room **namespace exercise_96** for it to function!
 
