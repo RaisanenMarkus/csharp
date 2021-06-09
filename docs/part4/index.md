@@ -9,7 +9,7 @@ has_toc: true
 
 # Part 4 - Object Oriented Programming
 
-The main theme of Part 4 is object oriented programming. This is a key concept in C# programming. 
+The main theme of Part 4 is Object Oriented Programming. This is a key concept in C# programming. 
 
 Understanding what are objects, making your own classes and using them in programming is essential software development skills. 
 
