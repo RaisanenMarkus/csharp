@@ -8,13 +8,13 @@ published: true
 
 # Variable Types
 
-There are two kinds of types in C#: **value types** and **reference types**. Variables of value types directly contain their data whereas variables of reference types store references to their data, the latter being known as **objects**. 
+There are two kinds of variable types in C# **value types** and **reference types**. Variables of value type directly contain their data whereas variables of reference type store references to their data, the latter being known as **objects**. 
 
-With reference types, it is possible for two variables to reference the same object and thus possible for operations on one variable to affect the object referenced by the other variable. 
+With reference type variables it is possible for two variables to reference the same object and thus possible for operations on one variable to affect the object referenced by the other variable. 
 
-With value types, the variables each have their own copy of the data, and it is not possible for operations on one to affect the other.
+With value type variables the variables each have their own copy of the data and it is not possible for operations on one to affect the other.
 
-From the programmer's point of view, the data in a value variable is stored as the value of that variable, whereas the value of a reference type varible is a reference to the data. Let's examine these different types with two examples.
+From the programmer's point of view the data in a value variable is stored as the value of that variable, whereas the value of a reference type varible is a reference to the data. Let's examine these different type variables with two examples.
 
 ```cs
 int number = 10;
@@ -50,11 +50,11 @@ namespace sandbox
 sandbox.Name
 ```
 
-In the first example we create a simple **int** variable, and the number 10 is stored as its value. When we pass the variable to the **Console.WriteLine** method, the value 10 is printed. In the second example we create a **reference type** variable named john. A reference to an object, returned by the constructor of the **Name** class when we call it, is stored as the value of the variable. When this latter variable is printed, the string **sandbox.Name** is what ends up being printed. What is the cause for this?
+In the first example we create a simple **int** variable and the number 10 is stored as its value. When we pass the variable to the **Console.WriteLine()** method the value 10 is printed. In the second example we create a **reference type** variable named john. A reference to an object, returned by the constructor of the **Name** class when we call it, is stored as the value of the variable. When this latter variable is printed the string **sandbox.Name** is what ends up being printed. What is the cause for this?
 
-The method call **Console.WriteLine** prints the value of the variable. The value of a simple variable is concrete, whereas the value of a reference type variable is a reference. In the case of a reference type variable, what is printed is the ToString representation of the object. As the default method for any **Object.ToString** is to print in format **namespace.ClassName**, we get **sandbox.Name**.
+The method call **Console.WriteLine()** prints the value of the variable. The value of a simple variable is concrete whereas the value of a reference type variable is a reference. In the case of a reference type variable what is printed is the ToString representation of the object. As the default method for any **Object.ToString()** is to print in format **namespace.ClassName**, hence we get **sandbox.Name**.
 
-The previous example is the case when the programmer has not changed a variable's default print format. You can change the default print by defining the method **ToString** in the class of the object in question. The method indicates what string should be printed when an instance of the class is printed. In the example below, we have defined the method **public override string ToString()** in the class Name: it returns the instance variable name. Now when we print an object that is an instance of Name with the Console.WriteLine command, what is printed is the string returned by the ToString method.
+The previous example is the case when the programmer has not changed a variable's default print format. You can change the default print by defining the method **ToString()** in the class of the object in question. The method indicates what string should be printed when an instance of the class is printed. In the example below we have defined the method **public override string ToString()** in the class Name. It returns the instance variable name. Now when we print an object that is an instance of Name with the Console.WriteLine() command, what is printed is the string returned by the ToString method.
 
 ```cs
 namespace sandbox
