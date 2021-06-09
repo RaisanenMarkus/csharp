@@ -54,7 +54,7 @@ public class Person
 }
 ```
 
-Initially all person objects are 0 years old, because the constructor sets the value of the instance variable age to 0:
+Initially all person objects are 0 years old, because the constructor sets the value of the instance variable age to 0.
 
 ```cs
 public Person(string name)
@@ -79,7 +79,7 @@ public Person(string name)
   this.height = 0;
 }
 
-    public Person(string name, int age)
+public Person(string name, int age)
 {
   this.name = name;
   this.age = age;
@@ -88,7 +88,7 @@ public Person(string name)
 }
 ```
 
-Now we have two alternative ways to create objects:
+Now we have two alternative ways to create objects.
 
 ```cs
 static void Main(string[] args)
@@ -105,18 +105,16 @@ static void Main(string[] args)
 Paul, age: 24
 Ada, age: 0
 ```
-This technique, where a class has two (or more) constructors, is called **constructor overloading**. A class can have multiple constructors which differ on the amount or type of their parameters. It is however not possible to have two constructor with exactly the same parameters. We cannot for example now add a constructor public **Person(String name, int weight)** because it is impossible for the compiler to differentiate this constructor with two parameters from the constructor where the int parameter means age.
 
+This technique where a class has two or more constructors is called **constructor overloading**. A class can have multiple constructors which differ on the amount or type of their parameters. It is however not possible to have two constructor with exactly the same parameters. We cannot for example now add a constructor public **Person(String name, int weight)**, because it is impossible for the compiler to differentiate this constructor with two parameters from the constructor where the int parameter means age.
 
 ## Calling Your Constructor
 
-As you might have noticed, there is plenty of "copy-paste" code in our overloaded constructors, meaning that there is repetition of same lines over and over again. When you look at the overloaded constructors above, they have a lot of the same code. We are not happy with this. If we had even more constructors, we would have to have the lines **this.name...** in each constructor.
+As you might have noticed there is plenty of "copy paste" code in our overloaded constructors, meaning that there is repetition of same lines over and over again. When you look at the overloaded constructors above they have a lot of the same code. We are not happy with this. If we had even more constructors we would have to have the lines **this.name** in each constructor.
 
-The first constructor, the one that is only given a name as a parameter,is actually a special case of the second constructor, which is given both name and age. What if the first constructor could call the second constructor?
+The first constructor the one that is only given a name as a parameter is actually a special case of the second constructor, which is given both name and age. What if the first constructor could call the second constructor? That is no problem, because you can call a constructor from another constructor using the **this** keyword tied to this exact object!
 
-That is no problem, because you can call a constructor from another constructor using the this keyword tied to this exact object!
-
-Let's modify the first constructor so, that it does not do anything itself, but calls the second constructor and asks it to set the age to 0.
+Let's modify the first constructor so that it does not do anything itself, but calls the second constructor and asks it to set the age to 0.
 
 
 ```cs
@@ -134,7 +132,7 @@ public Person(string name, int age)
 }
 ```
 
-The constructor call **this(name, 0)** might seem a bit weird. We can use **this** to have one constructor invocation call another constructor method, whic reduces "copy-paste code". In the example above, you could imagine the upper constuctor calling the lower one, with values **name** and **0**. As the lower constructor already defines how those values are to be treated, there is no need to separately define the variables in the upper constructor. This kind of constructor call does not change the code's behavior, and new objects can be created just like before:
+The constructor call **this(name, 0)** might seem a bit weird. We can use **this** to have one constructor invocation call another constructor method, which reduces "copy paste code". In the example above you could imagine the upper constuctor calling the lower one,with values **name** and **0**. As the lower constructor already defines how those values are to be treated there is no need to separately define the variables in the upper constructor. This kind of constructor call does not change the code's behavior and new objects can be created just like before.
 
 ```cs
 static void Main(string[] args)
@@ -154,7 +152,7 @@ Ada, age: 0
 
 ## Method Overloading
 
-Like constructors, methods can also be overloaded, so you can have multiple versions of one method. Again, the parameters of the different versions must be different. Let's make another version of the **GrowOlder** method, which ages the person the amount of years given to it as a parameter.
+Like constructors methods can also be overloaded so you can have multiple versions of one method. Again the parameters of the different versions must be different. Let's make another version of the **GrowOlder()** method, which ages the person the amount of years given to it as a parameter.
 
 ```cs
 public void GrowOlder()
@@ -167,7 +165,8 @@ public void GrowOlder(int years)
   this.age += years;
 }
 ```
-Below "Paul" is born 24 years old, first ages one year and then ages 10 years:
+
+Below "Paul" is born 24 years old, first ages one year and then ages 10 years.
 
 ```cs
 static void Main(string[] args)
@@ -188,9 +187,9 @@ Paul, age: 25
 Paul, age: 35
 ```
 
-A Person now has two methods called **GrowOlder**. Which one is executed debends on the amount of parameters given.
+A Person class now has two methods called **GrowOlder()**. Which one is executed debends on the amount of parameters given.
 
-We can also modify the program so, that the method without parameters is implemented using the method **GrowOlder(int years)**:
+We can also modify the program so that the method without parameters is implemented using the method **GrowOlder(int years)**:
 
 ```cs
 public void GrowOlder()
@@ -204,8 +203,8 @@ public void GrowOlder(int years)
 }
 ```
 
-The calling of an overloaded method is a bit different than that of an overloaded constructor. The idea is still exactly the same. Rather than having the same code in two places, we use **this** and tell what we are calling. 
+The calling of an overloaded method is a bit different than that of an overloaded constructor. The idea is still exactly the same. Rather than having the same code in two places we use **this** and tell what we are calling. 
 
-NOTICE! You cannot use the same notation which we used on a constructor, nor can you use this notation on a constructor. You can try what happens (or which kind of errors you get).
+**NOTICE!** You cannot use the same notation which we used on a constructor, nor can you use this notation on a constructor. You can try what happens or which kind of errors you get.
 
-**You can now do the exercises for overloading.**
+**You can now do the exercises for Overloading.**
