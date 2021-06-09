@@ -9,9 +9,9 @@ has_toc: true
 
 # Part 5 - Deeper into Objects
 
-In Part 5 of the course material we continue with object oriented programming. 
+In Part 5 of the course material we continue with Object Oriented Programming. 
 
-Object oriented programming was introduced in Part 4 and by now you should understand the basics. 
+Object Oriented Programming was introduced in Part 4 and by now you should understand the basics. 
 
 Next we will learn about overloading, datatypes, referencing and how to use them in programming.
 
