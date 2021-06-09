@@ -84,7 +84,7 @@ Console.WriteLine(john);
 John
 ```
 
-## Value Types
+## Value Type Variables
 
 A value type variable is either a **struct type** or an **enumeration type**. C# provides a set of predefined struct types called the **simple types**. The simple types are identified through reserved words.
 
@@ -124,27 +124,27 @@ Similarly the statement **int second = first;** reserves a location called secon
 
 The values of variables are also copied when they are used in method calls. In practice this means that the value of a variable that is passed as a method parameter is not changed in the method that did the passing or called the other method. 
 
-## Reference Types
+## Reference Type Variables
 
-C#’s reference type is a class type, an interface type, an array type, or a delegate type. 
+C# language’s reference type variables are a class type, interface type, array type or delegate type. 
 
-A reference type value is a reference to an **instance** of the type, the latter known as an **object**. The special value **null** is compatible with all reference types and indicates the absence of an instance. The programmer is also free to create their own variable types by defining new classes. In practice any object instanced from a class is a reference variable.
+A reference type variable value is a reference to an **instance** of the type, the latter known as an **object**. The special value **null** is compatible with all reference type variables and indicates the absence of an instance. The programmer is also free to create their own variable types by defining new classes. In practice any object instanced from a class is a reference type variable.
 
-Let's re-examine the example at the beginning of the chapter, where we created a variable called john of type Name.
+Let's re-examine the example at the beginning of the chapter where we created a variable called john of type Name.
 
 ```cs
 Name john = new Name("John");
 ```
 
-The call consists of the following parts:
+The call consists of the following parts.
 
-* When introducing any new variable, we must first define the type of that variable. Below we introduce a variable of type **Name**. In order for the execution of the program to succeed, there must be a class called **Name** available.
+* When introducing any new variable we must first define the type of that variable. Here introduce a variable of type **Name**. In order for the execution of the program to succeed there must be a class called **Name** available.
 
 ```cs
 Name ...
 ```
 
-* In the introduction of a variable its name must be included. You can later use the name of the variable to reference its value. Below, the variable name is defined as luke.
+* In the introduction of a variable its name must be included. You can later use the name of the variable to reference its value. Below the variable name is defined as john.
 
 ```cs
 Name john ...
@@ -156,17 +156,17 @@ Name john ...
 ... new Name("John");
 ```
 
-* The constructor call returns a value that is a reference to the created object. The equality signs tells the program that the value of the right-side expression is to be copied as the value of the variable on the left side. The reference to the newly-created object, which is returned by the constructor call, is copied as the value of the **john** variable.
+* The constructor call returns a value that is a reference to the created object. The equality signs tells the program that the value of the right side expression is to be copied as the value of the variable on the left side. The reference to the newly created object, which is returned by the constructor call is copied as the value of the **john** variable.
 
 ```cs
 Name john = new Name("John");
 ```
 
-The greatest difference between value and reference varibales is that the value ones (almost without exception) are unchanging. Conversely, the inner state of reference variables can typically be changed. This phenomenon is explained by the fact that the value of a value variable is directly stored in the variable, whereas the value of a reference variable is a reference to the variable data, i.e. the variable's internal state.
+The greatest difference between value and reference type varibales is that the value ones, almost without exception, are unchanging. Conversely the inner state of reference variables can typically be changed. This phenomenon is explained by the fact that the value of a value variable is directly stored in the variable, whereas the value of a reference variable is a reference to the variable data, the variable's internal state.
 
-Arithmetic operations, such as addition, subtraction, multiplication, can be used with value variables -- these operations do not change the original values of the variables. Arithmetic expressions create new values, which are stored into variables when needed. Notice that the values of reference variables cannot be changed by these arithmetic expressions.
+Arithmetic operations such as addition, subtraction and multiplication can be used with value variables. These operations do not change the original values of the variables. Arithmetic expressions create new values, which are stored into variables when needed. Notice that the values of reference variables cannot be changed by these arithmetic expressions.
 
-The value of a reference variable -- i.e. a reference -- points to a location that contains the information that relates to that variable. Let's assume we have the class Person available, and it contains a definition for the instance variable age. If a person object has been instanced of the class, you can find the variable age by following the object's reference. The value of this age variable can be changed, if so needed.
+The value of a reference variable, hence the name reference, points to a location that contains the information that relates to that variable. Let's assume we have the class Person available and it contains a definition for the instance variable age. If a person object has been instanced of the class you can find the variable age by following the object's reference. The value of this age variable can be changed, if needed.
 
 [**You can read more about variable types from here**](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types). This rabbit hole of information is *very deep* and might take some time to understand.
 
