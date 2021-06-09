@@ -561,7 +561,7 @@ if (muhammad.AgeAsYears() > pascal.AgeAsYears()) {
 }
 ```
 
-We are now going to learn a more "object-oriented" way to compare the ages of people.
+We are now going to learn a more "object oriented" way to compare the ages of people.
 
 We are going to create a new method **public bool OlderThan(Person compared)** for the Person class. It can be used to compare a certain person object to the person supplied as the parameter based on their ages.
 
@@ -636,7 +636,7 @@ public bool OlderThan(Person compared)
 }
 ```
 
-Let's pause for a moment to consider abstraction, one of the principles of object-oriented programming. The idea behind abstraction is to conceptualize the programming code so that each concept has its own clear responsibilities. When viewing the solution above, however, we notice that the comparison functionality would be better placed inside the SimpleDate class instead of the **Person** class.
+Let's pause for a moment to consider abstraction, one of the principles of Object Oriented Programming. The idea behind abstraction is to conceptualize the programming code so that each concept has its own clear responsibilities. When viewing the solution above, however, we notice that the comparison functionality would be better placed inside the SimpleDate class instead of the **Person** class.
 
 We'll create a method called **public boole Before(SimpleDate compared)** for the class SimpleDate. The method returns the value **true** if the date given as the parameter is after (or on the same day as) the date of the object whose method is called.
 
