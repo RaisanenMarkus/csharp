@@ -8,9 +8,9 @@ published: true
 
 # Object Oriented Programming
 
-Let us now begin our journey in to the world of object oriented programming. We will start with focusing on describing concepts and data using objects. We must also learn how to add functionality to our program by using methods.
+Let us now begin our journey in to the world of Object Oriented Programming. We will start with focusing on describing concepts and data using objects. We must also learn how to add functionality to our program by using methods.
 
-Object oriented programming is concerned with isolating concepts of a problem into separate entities and then using those entities to solve problems. Concepts related to a problem can only be used once they've been identified. Then they help us form abstractions that make those problem easier to approach.
+Object Oriented Programming is concerned with isolating concepts of a problem into separate entities and then using those entities to solve problems. Concepts related to a problem can only be used once they've been identified. Then they help us form abstractions that make those problem easier to approach.
 
 Once concepts related to a given problem have been identified we can begin to build constructs that represent them. These constructs are instances that are formed from problems and are so called objects. The statement "programs are built from small, clear and cooperative objects" may not make much sense yet. However it will appear more sensible as we progress through the course.
 
