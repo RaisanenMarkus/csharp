@@ -207,17 +207,17 @@ The clock we implemented above is an object whose functionality is based on "sim
 
 ## Object
 
-An **Object** refers to an independent entity that has data (instance variables) and behavior (methods) attached to it. Objects can differ a lot in structure and function: some may describe concepts of a problem domain, and others coordinate the interaction between various objects. Objects interact with one another through method calls - method calls are used to both request information from objects and give instructions to them. In general, each object has clearly defined boundaries and behaviors, and each object knows only about the objects it needs to perform its task. In other words, the object hides its internal operations and provides access to behavior through clearly defined methods. Also, the object is independent of any objects that it doesn't need to accomplish its task.
+An **object** refers to an independent entity that has data (instance variables) and behavior (methods) attached to it. Objects can differ a lot in structure and function. Some may describe concepts of a problem domain and others coordinate the interaction between various objects. Objects interact with one another through method calls. Method calls are used to both request information from objects and give instructions to them. In general each object has clearly defined boundaries and behaviors and each object knows only about the objects it needs to perform its task. In other words, the object hides its internal operations and provides access to behavior through clearly defined methods. The object is also independent of any objects that it doesn't need to accomplish its task.
 
-In the previous section, we dealt with objects depicting people whose structure was defined in a "Person" class. For review, it's a good idea to remember the purpose of a class: a **class** contains the blueprint needed to create objects, and also defines the objects' variables and methods. An object is instantiated based on the constructor in the class.
+In the previous section we dealt with objects depicting people whose structure was defined in a "Person" class. For review it's a good idea to remember the purpose of a class. A **class** contains the blueprint needed to create objects and also defines the objects' variables and methods. An object is instantiated based on the constructor in the class.
 
-Our person objects had a name, age, weight and height, and a few methods. If we thought about the structure of the person object more, we could probably come up with more person-related variables, such as a personal ID number, telephone number, address, and eye color.
+Our person objects had a name, age, weight and height and a few methods. If we thought about the structure of the person object more we could probably come up with more person related variables, such as a personal ID number, telephone number, address, and eye color.
 
-In reality, we can relate all kinds of different information and things to a person. However, when building an application that deals with people, the **functionality and features related to a person are gathered based on the application's use case**. For example, a life-management application could keep track of the previously-mentioned age, weight, and height, and provide the ability to calculate body mass index and maximum heart rate. On the other hand, an application focused on communication would store people's email addresses and phone numbers, but would not need information such as weight or height.
+In reality we can relate all kinds of different information and things to a person. However when building an application that deals with people the **functionality and features related to a person are gathered based on the application's use case**. For example a life management application could keep track of the previously mentioned age, weight, and height and provide the ability to calculate body mass index and maximum heart rate. On the other hand an application focused on communication would store people's email addresses and phone numbers, but would not need information such as weight or height.
 
 **The state of an object** is the value of its internal variables at any given point in time.
 
-In our example, a Person object that keeps track of name, age, weight, and height, and provides the ability to calculate body mass index and maximum heart rate would look like the following. Below, the height and weight are expressed as doubles - the unit of length is one meter.
+In our example a Person object that keeps track of name, age, weight, and height and provides the ability to calculate body mass index and maximum heart rate would look like the following. Below the height and weight are expressed as doubles. The unit of length is one meter.
 
 ```cs
 public class Person
@@ -294,7 +294,7 @@ Laura Palmer, BMI: 0.0016762251409825073, maximum heart rate: 191.369
 
 ## Class
 
-A class defines the types of objects that can be created from it. It contains instance variables describing the object's data, a constructor or constructors used to create it, and methods that define its behavior. A rectangle class is detailed below which defines the functionality of a rectangle:
+A **class** defines the types of objects that can be created from it. It contains instance variables describing the object's data, a constructor or constructors used to create it and methods that define its behavior. A rectangle class is detailed below which defines the functionality of a rectangle.
 
 ```cs
 // class
@@ -338,9 +338,9 @@ public class Rectangle
 }
 ```
 
-Some of the methods defined above do not return a value (methods that have the keyword void in their definition), while others do (methods that specify the type of variable to be returned). The class above also defines the toString method, which returns the string used to print the object.
+Some of the methods defined above do not return a value, methods that have the keyword void in their definition; while others do, methods that specify the type of variable to be returned. The class above also defines the toString method, which returns the string used to print the object.
 
-Objects are created from the class through constructors by using the new command. Below, you'll create two rectangles and print information related to them.
+Objects are created from the class through constructors by using the new command. Below you'll create two rectangles and print information related to them.
 
 ```cs
 static void Main(string[] args)
@@ -363,4 +363,4 @@ static void Main(string[] args)
 3120
 ```
 
-**You can now do the exercises for revision.**
+**You can now do the exercises for Object Oriented Revision.**
