@@ -230,27 +230,27 @@ First (1972)
 The execution of the program begins on the first line of the Main method. On the first row of the Main, a **Person type variable** first is introduced, and the value returned by the constructor of the Person class is copied as its value. The constructor creates an object whose birth year is set as 1970, and whose name is set to be the value received as the paramter. After the execution of this first row the state of the program is the following -- a Person object has been created in the memory, and there is a reference to it from the first variable defined in the Main method.
 
 
-![Step one](https://github.com/centria/basic-coding/raw/master/assets/images/part5-3-first-1-tm.png)
+![Step one](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/part5-3-first-1-tm.png)
 
 On the third row of the Main method we print the value of the variable first. The method call **Console.WriteLine** searches for the method ToString from the reference variable that it is given as the parameter. The Person class has the method ToString, so that method is called on the object that is referenced by the first variable. The value of the name variable in that object is "First", and the value of the birth year variable is 1970. What is printed is the string "First (1970)".
 
 On the fourth row the program calls the MakeYounger method, and the variable first is passed as a parameter to it. When the method MakeYounger is called, the value of the variable passed as the parameter is copied for the method MakeYounger to use. The execution of the Main method remains waiting in the call stack. As the variable first is reference type, the reference created earlier is copied for the method's use. At the end of the method execution the situation is the following -- the method increments by one the birth year of the object it receives as a parameter.
 
-![Step two](https://github.com/centria/basic-coding/raw/master/assets/images/part5-3-first-2-tm.png)
+![Step two](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/part5-3-first-2-tm.png)
 
 When the execution of the method MakeYounger ends, we return back to the Main method. The information related to the execution of the MakeYounger disappear from the call stack.
 
-![Step three](https://github.com/centria/basic-coding/raw/master/assets/images/part5-3-first-3-tm.png)
+![Step three](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/part5-3-first-3-tm.png)
 
 After returning from the method call we again execute the printing of the variable first. The object pointed at by the variable first has been modified in the course of executing the method call **MakeYounger**: the **birthYear** variable of the object was incremented by one. The final value that is printed is "First (1971)".
 
 Then the program introduces a new Person type variable called second. The value of the variable first is copied into the variable second: in other words, the value of the variable second is a reference to the already existing Person object.
 
-![Step four](https://github.com/centria/basic-coding/raw/master/assets/images/part5-3-first-4-tm.png)
+![Step four](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/part5-3-first-4-tm.png)
 
 After this the program calls the method MakeYounger, which is given the variable second as the parameter. The value of the given variable is copied as the value of a method variable when the method is called. At the end of the method execution there has been an increment of one in the object referenced by the method variable.
 
-![Step five](https://github.com/centria/basic-coding/raw/master/assets/images/part5-3-first-5-tm.png)
+![Step five](https://github.com/RaisanenMarkus/csharp/raw/main/assets/images/part5-3-first-5-tm.png)
 
 Finally the method execution ends and the program returns to the Main method. In the Main method the value of the variable first is printed one more time. The final result of the print is "First(1972)".
 
