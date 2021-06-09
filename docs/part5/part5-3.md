@@ -8,7 +8,7 @@ published: true
 
 # Variable Types
 
-There are two kinds of variable types in C# **value types** and **reference types**. Variables of value type directly contain their data whereas variables of reference type store references to their data, the latter being known as **objects**. 
+There are two kinds of variable types in C# programming, **value types** and **reference types**. Variables of value type directly contain their data whereas variables of reference type store references to their data, the latter being known as **objects**. 
 
 With reference type variables it is possible for two variables to reference the same object and thus possible for operations on one variable to affect the object referenced by the other variable. 
 
@@ -86,13 +86,13 @@ John
 
 ## Value Types
 
-A value type is either a **struct type** or an **enumeration type**. C# provides a set of predefined struct types called the **simple types**. The simple types are identified through reserved words.
+A value type variable is either a **struct type** or an **enumeration type**. C# provides a set of predefined struct types called the **simple types**. The simple types are identified through reserved words.
 
-A variable of a value type contains an instance of the type. This differs from a variable of a reference type, which contains a reference to an instance of the type. By default, on assignment, passing an argument to a method, or returning a method result, variable values are copied. In the case of value-type variables, the corresponding type instances are copied.
+A variable of a value type contains an instance of that type. This differs from a variable of a reference type, which contains a reference to an instance of that type. By default on assignment, when passing an argument to a method or returning a method result the variable values are copied. In the case of value type variables the corresponding type instances are copied.
 
-The most interesting (and maybe most important for us) are the **simple type**. Most of the variables we have handled so far are part of the simple type: int, bool and double are all simple types. It means that they are actually **keywords** that are **reserved** to represent certain types from the **System namespace**. 
+The most interesting and maybe most important for us are the **simple type** variables. Most of the variables we have handled so far are part of the simple type: int, bool and double are all simple type variables. It means that they are actually **keywords** that are **reserved** to represent certain types from the **System namespace**. 
 
-Because a simple type aliases a struct type, every simple type has members. For example, **int** has the members declared in **System.Int32** and the members inherited from **System.Object**, and the following statements are permitted:
+Because a simple type variables aliase a struct type, every simple type has members. For example **int** has the members declared in **System.Int32** and the members inherited from **System.Object** and the following statements are permitted.
 
 ```cs
 int i = int.MaxValue;    // System.Int32.MaxValue constant
@@ -100,9 +100,9 @@ string s = i.ToString(); // System.Int32.ToString() instance method
 string t = 123.ToString(); // System.Int32.ToString() instance method
 ```
 
-In other words, all the basic variables we have been using, are actually just easier way of using methods that are hidden inside the System.
+In other words all the basic variables we have been using are actually just easier way of using methods that are hidden inside the System.
 
-Introducing a value variable reserves a memory location of fixed size from the memory. The size is determined by the type of the variable, and the memory location is where the value of the variable stored at. In the example below we create three variables. Each one has its own memory location, to where the assigned value is copied.
+When introducing a value variable it reserves a memory location of fixed size from the memory. The size is determined by the type of the variable and the memory location is where the value of the variable stored at. In the example below we create three variables. Each one has its own memory location to where the assigned value is copied.
 
 ```cs
 int first = 10;
@@ -118,11 +118,11 @@ Console.WriteLine(first + " " + second + " " + third);
 10 5 10
 ```
 
-The name of the variable tells the memory location where its value is stored. When you assign a value to a value variable with an equality sign, the value on the right side is copied to the memory location indicated by the name of the variable. For example, the statement **int first = 10** reserves a location called first for the variable, and then copies to value 10 into it.
+The name of the variable tells the memory location where its value is stored. When you assign a value to a value variable with an equality sign, the value on the right side is copied to the memory location indicated by the name of the variable. For example the statement **int first = 10** reserves a location called first for the variable and then copies the value 10 into it.
 
-Similarly, the statement **int second = first;** reserves a location called second for the created variable, and then copies the value stored in the location of first into it.
+Similarly the statement **int second = first;** reserves a location called second for the created variable and then copies the value stored in the location of first into it.
 
-The values of variables are also copied when they are used in method calls. In practice this means that the value of a variable that is passed as a method parameter is not changed in the method that did the passing / called the other method. 
+The values of variables are also copied when they are used in method calls. In practice this means that the value of a variable that is passed as a method parameter is not changed in the method that did the passing or called the other method. 
 
 ## Reference Types
 
