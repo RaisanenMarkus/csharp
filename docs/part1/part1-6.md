@@ -28,24 +28,24 @@ namespace exercise_01
 }
 ```
 
-### 01_hello_world
+### EXERCISE 1: Hello World
 * Create a program that writes the text **Hello World!** into the console. The program contains the basic structure pictured above.
 
-### 02_bonnie_tyler
+### EXERCISE 2: Bonnie Tyler
 * Let's write some more. Bonnie Tyler once sang about feelings. Create a program using 3 Console.WriteLine's that print these lyrics.
   
 **Once upon a time**  
 **I was falling in love**  
 **Now I'm only falling apart**  
 
-### 03_bonnie_tyler_line_change
+### EXERCISE 3: Bonnie Tyler Line Change
 * Let's refine our program. Print the same message. This time use only one Console.WriteLine method. 
   
 **Once upon a time**  
 **I was falling in love**  
 **Now I'm only falling apart**  
 
-### 04_first_variable
+### EXERCISE 4: First Variable
 * The exercise has following structure.
 
 ```cs
@@ -66,7 +66,7 @@ namespace exercise_04
 
 * Change it so that it prints **Passport and a toothbrush!** Do not change the line containing Console.WriteLine. Only change the content of the variable!
 
-### 05_ada_lovelace
+### EXERCISE 5: Ada Lovelace
 * You will find following structure in the exercise.
   
 ```cs
@@ -88,7 +88,7 @@ namespace exercise_05
 
 * Modify the code so that it prints **Hello Ada LoveLace!** Do not modify the variable content!
 
-### 06_print_input
+### EXERCISE 6: Print Input
 * Create a program that asks user for a string. After the user has given the string, the program will print the given line. Example output with **Hello** as input. Input is marked with **>** for clarification.
 
 ```console
@@ -97,7 +97,7 @@ Give input!
 Hello
 ```
 
-### 07_triple_hello
+### EXERCISE 7: Triple Hello
 * Create a program that asks user for a string. After the user has given the string the program will print the given line 3 times. Example output with **Hello** as input.
 
 ```console
@@ -108,7 +108,7 @@ Hello
 Hello
 ```
 
-### EXERCISE_08:
+### EXERCISE 8: Greeting
 * Create a program that asks user for their name and greets them. Example output with **Ada** as input.
 
 ```console
@@ -118,7 +118,7 @@ Hello Ada!
 ```
 * Notice the exclamation mark!
 
-### EXERCISE_09:
+### EXERCISE 9: Conversation
 * Create a program that simulates a small conversation. The program will tell three lines and expects two user inputs.
 
 ```console
