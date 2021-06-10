@@ -749,7 +749,7 @@ The length of the word equisterian is 11
 * Write a program that reads names and birth years from the user until an empty line is entered. The name and birth year are separed by a comma.
 * After that the program prints the longest name and the highest age. 
 * If multiple names are equally longest you can print any of them. 
-* You can assume the user to enter at least one person and the current year to be 2021.
+* You can assume the user to enter at least one person and the current year to be used for calculating the age.
 
 ```console
 > sebastian,2017 
