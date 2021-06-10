@@ -10,7 +10,7 @@ published: true
 
 ## Lists
 
-### EXERCISE_62:
+### EXERCISE 3-1: Third From List
 
 * This exercise contains a base that asks the user for strings and adds them to a list. The program stops reading input when the user enters an empty string. The program then prints the first element of the list.
 * Your assignment is to modify the program so that instead of the first value the third value on the list is printed. Remember that programmers start counting from zero! The program is allowed to malfunction if there are fewer than three entries on the list.
@@ -33,7 +33,7 @@ Alex
 Mary
 ```
 
-### EXERCISE_63:
+### EXERCISE 3-2: Sum of Second and Third
 
 * In the exercise template there is a program that reads integers from the user and adds them to a list. This ends when the user enters 0. The program then prints the first value on the list.
 * Modify the program so that instead of the first value the program prints the sum of the second and third numbers. The program is allowed to malfunction if there are fewer than three entries on the list, so you don't need to prepare for such an event at all.
@@ -55,11 +55,11 @@ Mary
 7
 ```
 
-### EXERCISE_64:
+### EXERCISE 3-3: Exception
 
 * There is a program that uses a list in the exercise template. Modify it so that its execution always produces the error **ArgumentOutRangeException**. The user should not have to give any inputs to the program.
 
-### EXERCISE_65:
+### EXERCISE 3-4: Counting Names
 
 * In the exercise template there is a program that reads input from the user. Modify its working so that when the program quits reading, with an empty line, the program prints the number of values on the list.
 
@@ -92,7 +92,7 @@ In total: 11
 
 * The next exercises are meant for learning to use lists and indices. Even if you could complete the execises without a list concentrate on training to use lists. The functionality in the exercises is to be implemented after reading the inputs.
 
-### EXERCISE_66:
+### EXERCISE 3-5: Last From List
 
 * In the exercise template there is a program that reads inputs from the user and adds them to a list. Reading is stopped once the user enters an empty string.
 * Your task is to modify the method to print the last read value after it stops reading. Print the value that was read last from the list. Use the Count to help you. You do not have to take into consideration empty lists. You can assume that the user always gives at least one input.
@@ -122,7 +122,7 @@ Mary
 Oscar
 ```
 
-### EXERCISE_67:
+### EXERCISE 3-6: First and Last
 
 * In the exercise template there is a program that reads inputs from the user and adds them to a list. Reading is stopped once the user enters an empty string.
 * Modify the program to print both the first and the last values after the reading ends. You may suppose that at least two values are read into the list.
@@ -162,7 +162,7 @@ Tom
 Mary
 ```
 
-### EXERCISE_68:
+### EXERCISE 3-7: Numbers From List
 
 * The exercise template contains a base that reads numbers from the user and adds them to a list. Reading is stopped once the user enters the number -1.
 * Expand the functionality of the program so that after reading the numbers it prints all the numbers received from the user. The number used to indicate stopping should not be printed.
@@ -179,7 +179,7 @@ Mary
 11
 ```
 
-### EXERCISE_69:
+### EXERCISE 3-8: Numbers From and To
 
 * The exercise template contains a base that reads numbers from the user and adds them to a list. Reading is stopped once the user enters the number -1.
 * Expand the program to ask for a start and end indices once it has finished asking for numbers. After this the program shall prints all the numbers in the list that fall in the specified range. Inclusively all the numbers between the indices given by the user. You may assume that the user gives indices that match some numbers in the list.
@@ -213,7 +213,7 @@ Where to?
 11 
 ```
 
-### EXERCISE_70:
+### EXERCISE 3-9: Greatest Number
 
 * The exercise template contains a base that reads numbers from the user and adds them to a list. Reading is stopped once the user enters the number -1.
 * Continue developing the program so that it finds the greatest number in the list and prints its value after reading all the numbers. The programming should work in the following manner.
@@ -245,7 +245,7 @@ for(int i = 0; i < list.Count; i++) {
 Console.WriteLine("The smallest number: " + smallest);
 ```
 
-### EXERCISE_71:
+### EXERCISE 3-10: Index
 
 * The exercise template contains a base that reads numbers from the user and adds them to a list. Reading is stopped once the user enters the number -1.
 * Expand the program that then asks the user for a number, and reports that number's index in the list. If the number is not found, the program should not print anything.
@@ -275,7 +275,7 @@ Search for?
 8 is at index 3
 ```
 
-### EXERCISE_72:
+### EXERCISE 3-11: Smallest and Index
 
 * Write a program that reads numbers from the user. When number 9999 is entered the reading process stops. After this the program will print the smallest number in the list and also the indices where that number is found. The smallest number can appear multiple times in the list.
 
@@ -304,7 +304,7 @@ Found at index: 3
 
 **HINT:** Combine the programs you wrote for the exercises "Greatest number in the list" and "Index of the requested number". First find the smalleest number and then find the index of that number.
 
-### EXERCISE_73:
+### EXERCISE 3-12: Sum of List
 
 * The exercise template contains a base that reads numbers from the user and adds them to a list. Reading is stopped once the user enters the number -1.
 * Modify the program so that after reading the numbers it calculates and prints the sum of the numbers in the list.
@@ -318,7 +318,7 @@ Found at index: 3
 Sum: 93
 ```
 
-### EXERCISE_74:
+### EXERCISE 3-13: Finding Names
 
 * In the exercise template there is a program that reads inputs from the user until an empty string is entered. 
 * Add the following functionality to it. After reading the inputs one more string is requested from the user. The program then tell whether that string was found in the list or not.
@@ -343,7 +343,7 @@ Search for?
 Logan was not found!
 ```
 
-### EXERCISE_75:
+### EXERCISE 3-14: Numbers in Range
 
 * Create the method **public static void PrintNumbersInRange(List\<int\> numbers, int lowerLimit, int upperLimit)** in the exercise template. The method prints the numbers in the given list whose values are in the range [lowerLimit, upperLimit]. A few examples of using the method are supplied below.
 
@@ -375,7 +375,7 @@ The numbers in the range [3, 10]
 5
 ```
 
-### EXERCISE_76:
+### EXERCISE 3-15: Sum Method
 
 * Create the method **public static int Sum(List\<int\> numbers)** in the exercise template. The method is to **return** the sum of the numbers in the parameter list.
 
@@ -397,7 +397,7 @@ Console.WriteLine(Sum(numbers));
 16
 ```
 
-### EXERCISE_77:
+### EXERCISE 3-16: Remove Last Method
 
 * Create the method **public static void RemoveLast(List\<string\> strings)** in the exercise template. The method should remove the last value in the list it receives as a parameter. If the list is empty the method does nothing.
 
@@ -426,7 +426,7 @@ First
 
 ## Arrays
 
-### EXERCISE_78:
+### EXERCISE 3-17: Swap Indices
 
 * The exercise template already contains a program that creates an array and prints the values of the array twice. 
 * Modify the program to do following: After the first printing the program should ask for two indices from the user. The values in these two indices should be swapped and in the end the values of the array should be printed once again.
@@ -471,7 +471,7 @@ You can assume the array to contain the given indices.
 
 **Tip!** You'll need an additional variable to store one of the values for little while.
 
-### EXERCISE_79:
+### EXERCISE 3-18: Searching Array
 
 * The exercise template has already an array containing numbers. 
 * Complete the program to ask the user for a number to search in the array. If the array contains the given number the program tells the index containing the number. If the array doesn't contain the given number the program will tell the number wasn't found.
@@ -494,7 +494,7 @@ Search for?
 22 was not found.
 ```
 
-### EXERCISE_80:
+### EXERCISE 3-19: Sum of Numbers in Array
 
 * The template has a method **public static int SumOfNumbersInArray(int[] array)**. Complete the method so that it computes and returns the sum of the numbers in the array it receives as parameter.
 * You can try out the computation of the sum with this example.
@@ -509,7 +509,7 @@ Console.WriteLine(sum);
 15
 ```
 
-### EXERCISE_81:
+### EXERCISE 3-20: Print Neatly
 
 * Complete the method **public static void PrintNeatly(int[] array)** in the template to make it print the numbers of the array it receives more neatly. There should be a whitespace and a comma between each number. Don't put a comma after the last number.
 * Print the numbers on one line using **Console.Write()**.
@@ -524,7 +524,7 @@ PrintNeatly(array);
 5, 1, 3, 4, 2
 ```
 
-### EXERCISE_82:
+### EXERCISE 3-21: Array in Stars
 
 * Complete the method **public static void PrintArrayInStars(int[] array)** in the template to make it print a row of stars for each number in the array. The amount of stars on each row is defined by the corresponding number in the array.
 
@@ -547,7 +547,7 @@ PrintArrayInStars(array);
 
 ## Strings
 
-### EXERCISE_83:
+### EXERCISE 3-22: String Three Times
 
 * Write a program that reads a string from the user and then prints it three times.
 
@@ -559,7 +559,7 @@ cakecakecake
 
 **NOTICE!** The program should ask for only one string. Don't use a loop here.
 
-### EXERCISE_84:
+### EXERCISE 3-23: True String
 
 * Write a program that asks the user for a string. If the user writes the string "true" the program prints "You got it right!" otherwise it prints "Try again!".
 
@@ -573,7 +573,7 @@ Give a string: trueish
 Try again!
 ```
 
-### EXERCISE_85:
+### EXERCISE 3-24: Login
 
 * Write a program that recognizes the following users.
 
@@ -610,7 +610,7 @@ Incorrect username or password!
 
 **NOTICE!** In real life login should not be implemented like this! This is just an exercise.
 
-### EXERCISE_86:
+### EXERCISE 3-25: String Split
 
 * Write a program that reads strings from the user. If the input is empty the program stops reading input and halts. For each non empty input it splits the string input by whitespaces and prints each part of the string on a new line.
 
@@ -629,7 +629,7 @@ halted
 >
 ```
 
-### EXERCISE_87:
+### EXERCISE 3-26: Split Contains av
 
 * Write a program that reads user input until an empty line. For each non empty string the program splits the string by spaces and then prints the pieces that contain **av** each on a new line.
 
@@ -665,7 +665,7 @@ can was found
 tin wasn't found
 ```
 
-### EXERCISE_88:
+### EXERCISE 3-27: First Part Split
 
 * Write a program that reads user input until an empty line. For each non empty line the program splits the string by spaces and prints the first part of the string.
 
@@ -677,7 +677,7 @@ this
 >
 ```
 
-### EXERCISE_89:
+### EXERCISE 3-28: Last Part Split
 
 * Write a program that reads user input until an empty line. For each non empty line the program splits the string by spaces and prints the last part of the string.
 
@@ -700,7 +700,7 @@ Console.WriteLine("Number of parts: " + parts.Length);
 Number of parts: 3
 ```
 
-### EXERCISE_90:
+### EXERCISE 3-29: CSV Age
 
 * Write a program that reads names and ages from the user until an empty line is entered. The name and age are separed by a comma.
 * After reading the program prints the age of the oldest person. 
@@ -716,7 +716,7 @@ Number of parts: 3
 Age of the oldest: 10
 ```
 
-### EXERCISE_91:
+### EXERCISE 3-30: CSV Name
 
 * Write a program that reads names and ages from the user until an empty line is entered. The name and age are separed by a comma.
 * After reading the program prints the name of the oldest person. 
@@ -732,7 +732,7 @@ Age of the oldest: 10
 Name of the oldest: gabriel
 ```
 
-### EXERCISE_92:
+### EXERCISE 3-31: Maximum Name and Age
 
 * In this exercise you'll be asked for the length of the names. You can find out the length of a string with Length property.
 
