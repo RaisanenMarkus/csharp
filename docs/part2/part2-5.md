@@ -634,5 +634,5 @@ The call **christmasTree(10)** should print:
         *** 
         ***
 ```
-NOTICE! Heights shorter that 3 don't have to work correctly!
+**NOTICE!** Heights shorter that 3 don't have to work correctly!
 
