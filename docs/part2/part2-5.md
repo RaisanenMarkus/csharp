@@ -10,7 +10,7 @@ published: true
 
 ## Subproblems
 
-### EXERCISE 2.1: Second Power
+### EXERCISE 2-1: Second Power
 
 * Write a program that reads an integer from the user input and then prints the second power of the given integer i.e. the integer multiplied by itself.
 
@@ -29,7 +29,7 @@ published: true
 9
 ```
 
-### EXERCISE 2.2: Square Root of Sum
+### EXERCISE 2-2: Square Root of Sum
 
 * Write a program that reads two integers from the user and prints the square root of the sum of these integers. The program does not need to work with negative values.
 * You can get the square root of an integer with the Math.Sqrt method like this.
@@ -58,7 +58,7 @@ Console.WriteLine(squareRoot);
 6
 ```
 
-### EXERCISE 2.3: Absolute Value
+### EXERCISE 2-3: Absolute Value
 
 * Write a program that reads an integer from the user. If the number is less than 0 it prints the number multiplied by -1. Otherwise the program prints the number itself. A few examples of the expected function below.
 
@@ -76,7 +76,7 @@ Console.WriteLine(squareRoot);
 > 0
 0
 ```
-### EXERCISE 2.4: Comparison
+### EXERCISE 2-4: Comparison
 
 * Write a program that reads two integers from the user input. If the first number is greater than the second the program prints "(first) is greater than (second)." If the first number is less than the second the program prints "(first) is less than (second)." Otherwise the program prints "(first) is equal to (second)." The (first) and (second) should always be replaced with the actual numbers given by the user.
 
@@ -102,7 +102,7 @@ A few examples of the expected behaviour.
 
 ## More Loops
 
-### EXERCISE 2.5: Iterating to Input
+### EXERCISE 2-5: Iterating to Input
 
 * Write a program that reads an integer from the user. Then the program prints numbers from 0 to the number given by the user. You can assume that the user always gives a positive number. Below is some examples of the wanted functionality. **You can use either a while-loop or a for-loop.**
 
@@ -121,7 +121,7 @@ A few examples of the expected behaviour.
 1
 ```
 
-### EXERCISE 2.6: Iterating to Hundred
+### EXERCISE 2-6: Iterating to Hundred
 
 * Write a program which reads an integer from the user. Then the program prints numbers from that number to 100. You can assume that the user always gives a number less than 100. Below are some examples of the wanted functionality.
 
@@ -148,7 +148,7 @@ A few examples of the expected behaviour.
 ### NOTICE!
 * From now on the exercises might be as multiple section instructions. In the end you should still have **only one program per exercise** to return.  All sections are needed to count exercise as DONE.
 
-### EXERCISE_47:
+### EXERCISE 2-7: Where to and From
 
 #### Section 1
 * Write a program which prints integers from 1 to a number given by the user.
@@ -199,7 +199,7 @@ Where from?
 
 Hint: Remember that the lower and the upper limits can be negative!
 
-### EXERCISE_48:
+### EXERCISE 2-8: Numbers and Calculations
 
 #### Section 1
 
@@ -288,7 +288,7 @@ Odd: 1
 * In these exercises we practice making and calling our own methods. 
 * If the exercise template says **// Call your method here:"** call it once. Usually this is in the Main class.
 
-### EXERCISE_49:
+### EXERCISE 2-9: Print Phrase
 
 * Create a method called **PrintPhrase()** which prints the phrase "In a hole in the ground there lived a method." and a newline. Use WriteLine() and not just Write().
 
@@ -310,7 +310,7 @@ public static void PrintPhrase()
 ```console
 In a hole in the ground there lived a method.
 ```
-### EXERCISE_50:
+### EXERCISE 2-10: How Many Times
 
 * Expand the previous program so that the main program asks the user for the number of times the phrase will be printed.
 
@@ -340,7 +340,7 @@ In a hole in the ground there lived a method.
 ## NOTICE!
 * From now on when introducing methods we might not explicitly mention they must be located in the correct place. Methods cannot be defined e.g. inside other methods.
 
-### EXERCISE_51:
+### EXERCISE 2-11: Print Until Number
 
 * Create the following method in the exercise template **public static void PrintUntilNumber(int number)**. It should print the numbers from one to the number passed as a parameter. Two examples of the method's usage are given below.
 
@@ -371,7 +371,7 @@ public static void Main(string[] args)
 2
 3
 ```
-### EXERCISE_52:
+### EXERCISE 2-12: From Number to One
 
 * Create the following method in the exercise template **public static void PrintFromNumberToOne(int number)**. It should print the numbers from the number passed as a parameter down to one. Two examples of the method's usage are given below.
 
@@ -402,11 +402,11 @@ public static void Main(string[] args)
 1
 ```
 
-### EXERCISE_53:
+### EXERCISE 2-13: Division
 
 * Write a method **public static void Division(int numerator, int denominator)** that prints the result of the division of the numerator by the denominator. Keep in mind that the result of the division of the integers is an integer. In this case we want the result to be a double.
 
-### EXERCISE_54:
+### EXERCISE 2-14: Divisible in Range
 
 * Write a method **public static void DivisibleByThreeInRange(int beginning, int end)** that prints all the numbers divisible by three in the given range. The numbers are to be printed in order from the smallest to the greatest.
 
@@ -435,15 +435,15 @@ public static void Main(string[] args)
 9
 ```
 
-### EXERCISE_55:
+### EXERCISE 2-15: Number Uno
 
 * Write a method **public static int NumberUno()** that returns the value 1.
 
-### EXERCISE_56:
+### EXERCISE 2-16: Word
 
 * Write a method **public static string Word()**. The method must return a string of your choice.
 
-### EXERCISE_57:
+### EXERCISE 2-17: Sum
 
 * Expand the method **Sum(int, int, int, int)** in the exercise template so that it calculates and returns the sum of the numbers that are given as the parameters.
 * Create the method using the following structure.
@@ -467,7 +467,7 @@ Output of the example.
 Sum: 14
 ```
 
-### EXERCISE_58:
+### EXERCISE 2-18: Smallest
 
 * Define a two-parameter method **Smallest(int, int)** that returns the smaller of the two numbers passed to it as parameters.
 
@@ -493,7 +493,7 @@ The output of the program.
 Smallest: 2
 ```
 
-### EXERCISE_59:
+### EXERCISE 2-19: Greatest
 
 * Define a three parameter method **Greatest(int, int, int)** that returns the greatest of the three numbers passed to it as parameters.
 
@@ -519,7 +519,7 @@ The output of the program.
 Greatest: 7
 ```
 
-### EXERCISE_60:
+### EXERCISE 2-20: Stars
 
 #### Section 1
 
@@ -586,7 +586,7 @@ The output of the program.
 ```
 
 
-### EXERCISE_61:
+### EXERCISE 2-21: Christmas Tree
 
 #### Section 1
 * Define a method called **PrintSpaces(int number)** that produces the number of spaces specified by number. The method **does not print the line break**.
