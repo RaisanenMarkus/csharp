@@ -10,7 +10,7 @@ published: true
 
 ## Subproblems
 
-### EXERCISE 1: Second Power
+### EXERCISE 2.1: Second Power
 
 * Write a program that reads an integer from the user input and then prints the second power of the given integer i.e. the integer multiplied by itself.
 
@@ -29,7 +29,7 @@ published: true
 9
 ```
 
-### EXERCISE 2: Square Root of Sum
+### EXERCISE 2.2: Square Root of Sum
 
 * Write a program that reads two integers from the user and prints the square root of the sum of these integers. The program does not need to work with negative values.
 * You can get the square root of an integer with the Math.Sqrt method like this.
@@ -58,7 +58,7 @@ Console.WriteLine(squareRoot);
 6
 ```
 
-### EXERCISE 3: Absolute Value
+### EXERCISE 2.3: Absolute Value
 
 * Write a program that reads an integer from the user. If the number is less than 0 it prints the number multiplied by -1. Otherwise the program prints the number itself. A few examples of the expected function below.
 
@@ -76,7 +76,7 @@ Console.WriteLine(squareRoot);
 > 0
 0
 ```
-### EXERCISE 4: Comparison
+### EXERCISE 2.4: Comparison
 
 * Write a program that reads two integers from the user input. If the first number is greater than the second the program prints "(first) is greater than (second)." If the first number is less than the second the program prints "(first) is less than (second)." Otherwise the program prints "(first) is equal to (second)." The (first) and (second) should always be replaced with the actual numbers given by the user.
 
@@ -102,7 +102,7 @@ A few examples of the expected behaviour.
 
 ## More Loops
 
-### EXERCISE 5: Iterating to Input
+### EXERCISE 2.5: Iterating to Input
 
 * Write a program that reads an integer from the user. Then the program prints numbers from 0 to the number given by the user. You can assume that the user always gives a positive number. Below is some examples of the wanted functionality. **You can use either a while-loop or a for-loop.**
 
@@ -121,7 +121,7 @@ A few examples of the expected behaviour.
 1
 ```
 
-### EXERCISE 6: Iterating to Hundred
+### EXERCISE 2.6: Iterating to Hundred
 
 * Write a program which reads an integer from the user. Then the program prints numbers from that number to 100. You can assume that the user always gives a number less than 100. Below are some examples of the wanted functionality.
 
