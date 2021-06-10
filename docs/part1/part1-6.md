@@ -129,7 +129,7 @@ That's interesting, tell me more
 Thank you for sharing!
 ```
 
-### EXERCISE_10:
+### EXERCISE 10: Name Profession
 * Create a program that asks the user for a name and a profession. Then make the program to write a little story with this information. Here is an example story with inputs **Ada** and **Data Scientist**.
 
 * Notice every **Ada** and **Data Scientist** in the story are the inputs by the user. Remember to save the **Console.ReadLine's** into variables and use them as parts of the story!
@@ -149,7 +149,7 @@ Ada enjoys their work as Data Scientist, The end.
 
 ## Variables
 
-### EXERCISE_11:
+### EXERCISE 11: Print Variables
 * The exercise comes with a template that prints the following.
 
 ```console
@@ -172,7 +172,7 @@ Coding is fun:
 It sure is!
 ```
 
-### EXERCISE_12:
+### EXERCISE 12: Print Integer
 * Create a program that asks the user for an integer. After user input the program will print the integer.
 
 ```console
@@ -187,7 +187,7 @@ Give a number!
 You gave 42
 ```
 
-### EXERCISE_13:
+### EXERCISE 13: Print Double
 * Create a program that asks the user for a double. After user input the program will print the double.
 
 ```console
@@ -202,7 +202,7 @@ Give a number!
 You gave 41.999999
 ```
 
-### EXERCISE_14:
+### EXERCISE 14: Print Truth
 * Create a program that asks the user for a boolean. After user input the program will print the boolean.
 
 ```console
@@ -217,7 +217,7 @@ Give me the truth!
 False
 ```
 
-### EXERCISE_15:
+### EXERCISE 15: Asking Multiple Inputs
 * Let's combine everything you know so far. Create program that asks the user for a string, an integer, a double and a boolean and prints them as following.
 
 ```console
@@ -237,7 +237,7 @@ Your boolean: True
 
 ## Calculations
 
-### EXERCISE_16:
+### EXERCISE 16: Seconds In Days
 * Create a program which asks user for amount of days and prints the total amount of seconds for that amount of days.
 
 Example print:
@@ -252,7 +252,7 @@ How many days?
 604800
 ```
 
-### EXERCISE_17:
+### EXERCISE 17: Input Two Integers
 * Create a program which asks the user for two integers and calculates their sum.  
 * Remember that the input is a string so you have to convert it to integer!
 
@@ -272,7 +272,7 @@ Give the second number!
 The sum is 2
 ```
 
-### EXERCISE_18:
+### EXERCISE 18: Input Three Integers
 * Expand a little on the previous exercise. Now create a program which asks for three integers and calculates their sum.
 
 ```console
@@ -285,7 +285,7 @@ Give the third number!
 The sum is 4
 ```
 
-### EXERCISE_19:
+### EXERCISE 19: Sum of Two
 * Create a program which asks the user for two integers and counts their sum. This time also print the equation to the user.
 
 ```console
@@ -304,7 +304,7 @@ Give the second number!
 3 + -1 = 2
 ```
 
-### EXERCISE_20:
+### EXERCISE 20: Multiply Two
 * Create a program which asks the user for two integers and multiplies them with each other.
 
 ```console
@@ -323,7 +323,7 @@ Give the second number!
 50  * -2 = -100
 ```
 
-### EXERCISE_21:
+### EXERCISE 21: Average of Two
 * Create a program which asks the user for two **integers** and calculates their **average** as a **double**.
 
 ```console
@@ -333,7 +333,7 @@ Give the second number!
 > 2
 The average is 2.5
 ```
-### EXERCISE_22:
+### EXERCISE 22: Average of Three
 * Create a program which asks the user for three **integers** and calculates their **average** as a **double**.
 
 ```console
@@ -346,7 +346,7 @@ Give the third number!
 The average is 2.0
 ```
 
-### EXERCISE_23:
+### EXERCISE 23: Tiny Calculator
 * Let's create a program that does all the basic calculations from user input. Ask for two integers and do the calculations with them.
 
 ```console
@@ -362,7 +362,7 @@ Give the second number!
 
 ## Conditionals and Comparison
 
-### EXERCISE_24:
+### EXERCISE 24: Speeding
 * Create a program which asks the user for an integer. If the given integer is larger than 120 output "Speeding!".
 
 ```console
@@ -376,7 +376,7 @@ Your speed:
 Speeding!
 ```
 
-### EXERCISE_25:
+### EXERCISE 25: Orwell
 * Create a program which asks for an integer. If the integer is 1984 output "Orwell".
 
 ```console
@@ -390,7 +390,7 @@ Give a number:
 Orwell
 ```
 
-### EXERCISE_26:
+### EXERCISE 26: Too Old
 * Create a program which asks for a year as an integer. If the integer is less than 1900 output "You're old".
 
 ```console
@@ -404,7 +404,7 @@ Give your age:
 You're old
 ```
 
-### EXERCISE_27:
+### EXERCISE 27: Stay Positive
 * Create a program which tells if the given number is positive or not.
 
 ```console
@@ -419,7 +419,7 @@ Give a number:
 It is not positive
 ```
 
-### EXERCISE_28:
+### EXERCISE 28: Over Eighteen
 * Create a program which tell if the given person is legally adult, in Finland over 18 or not.
 
 ```console
@@ -434,7 +434,7 @@ How old are you?
 You're an adult!
 ```
 
-### EXERCISE_29:
+### EXERCISE 29: Larger Number
 * Create a program which asks for two integers. The program should tell which of them is greater. If they are equal that should be noted.
 
 ```console
@@ -460,7 +460,7 @@ Give the second number!
 > 3
 They are equal!
 ```
-### EXERCISE_30:
+### EXERCISE 30: Course Grading
 * Here is the grading for this course.
 
 | Percent | Grade|
@@ -500,7 +500,7 @@ Give your percent [0 - 100]:
 Outstanding!
 ```
 
-### EXERCISE_31:
+### EXERCISE 31: Even or Odd
 * Create a program which asks for an integer and tells the user if it is even or not.
 
 ```console
@@ -517,7 +517,7 @@ It is odd.
 
 * Hint: You might want to use the **%** operator to get the remainder after a division with 2.
 
-### EXERCISE_32:
+### EXERCISE 32: Enter Friend
 * Create a program which asks for a string. If the string is "Mellon" print "Welcome, friend" otherwise print "They've got a cave troll!".
 
 ```console
@@ -532,7 +532,7 @@ Speak, friend, and enter!
 Welcome, friend
 ```
 
-### EXERCISE_33:
+### EXERCISE 33: Echo
 * Create a program which asks for two string. If the strings are equal print "Echo" otherwise print "Nope".
 
 ```console
@@ -553,7 +553,7 @@ Nope!
 
 ## Repetition
 
-### EXERCISE_34:
+### EXERCISE 34: Continue
 * Create a program which asks the user if they want to continue. If the user answers "no" then quit the program. Otherwise ask again.
 
 ```console
@@ -567,7 +567,7 @@ Do you want to continue?
 
 * Hint: Use a while loop!
 
-### EXERCISE_35:
+### EXERCISE 35: Answer to Life
 * Create a program which asks the user for integers until the user give the number "42".
 
 ```console
@@ -581,7 +581,7 @@ Give a number:
 42
 ```
 
-### EXERCISE_36:
+### EXERCISE 36: Power of Positivity
 * Create a program which asks the user for integers. If the number is zero exit the program. If the number is negative give the user message "That is negative". If the number is positive output the number raised to its second power.
 
 ```console
@@ -598,7 +598,7 @@ Give a number:
 0
 ```
 
-### EXERCISE_37:
+### EXERCISE 37: Counting Numbers
 * Create a program which asks the user for integers. If the integer is 0 quit. In the end output "Total amount of numbers:" and the amount. Do not count the 0 into the amount.
 
 ```console
@@ -613,7 +613,7 @@ Give a number:
 Total amount of numbers: 3
 ```
 
-### EXERCISE_38:
+### EXERCISE 38: Counting Negatives
 * Create a program which asks the user for integers. If the integer is 0 quit. In the end output the total amount of **negative numbers** with "Total amount of negative numbers:" and the amount. Do not count the 0 into the amount.
 
 ```console
@@ -628,7 +628,7 @@ Give a number:
 Total amount of negative numbers: 1
 ```
 
-### EXERCISE_39:
+### EXERCISE 39: Sum of Numbers
 * Create a program which asks the user for integers. If the integer is 0 quit. In the end output the total **sum** of the numbers with "Total sum of numbers:" and the sum. Do not count the 0 into the sum.
 
 ```console
@@ -643,7 +643,7 @@ Give a number:
 Total sum of numbers: 25
 ```
 
-### EXERCISE_40:
+### EXERCISE 40: Amount and Sum
 * Create a program which asks the user for integers. Exit with 0. In the end output both the amount and the sum. Do not count 0 to either.
 
 ```console
