@@ -28,24 +28,24 @@ namespace exercise_01
 }
 ```
 
-### EXERCISE_01:
+### EXERCISE_part_01-001_hello_world
 * Create a program that writes the text **Hello World!** into the console. The program contains the basic structure pictured above.
 
-### EXERCISE_02:
+### EXERCISE_part_01-002_bonnie_tyler
 * Let's write some more. Bonnie Tyler once sang about feelings. Create a program using 3 Console.WriteLine's that print these lyrics.
   
 **Once upon a time**  
 **I was falling in love**  
 **Now I'm only falling apart**  
 
-### EXERCISE_03:
+### EXERCISE_part_01-003_bonnie_tyler_line_change
 * Let's refine our program. Print the same message. This time use only one Console.WriteLine method. 
   
 **Once upon a time**  
 **I was falling in love**  
 **Now I'm only falling apart**  
 
-### EXERCISE_04:
+### EXERCISE_part_01-004_first_variable
 * The exercise has following structure.
 
 ```cs
@@ -66,7 +66,7 @@ namespace exercise_04
 
 * Change it so that it prints **Passport and a toothbrush!** Do not change the line containing Console.WriteLine. Only change the content of the variable!
 
-### EXERCISE_05:
+### EXERCISE_part_01-005_ada_lovelace
 * You will find following structure in the exercise.
   
 ```cs
@@ -88,7 +88,7 @@ namespace exercise_05
 
 * Modify the code so that it prints **Hello Ada LoveLace!** Do not modify the variable content!
 
-### EXERCISE_06:
+### EXERCISE_part_01-006_print_input
 * Create a program that asks user for a string. After the user has given the string, the program will print the given line. Example output with **Hello** as input. Input is marked with **>** for clarification.
 
 ```console
@@ -97,7 +97,7 @@ Give input!
 Hello
 ```
 
-### EXERCISE_07:
+### EXERCISE_part_01-007_triple_hello
 * Create a program that asks user for a string. After the user has given the string the program will print the given line 3 times. Example output with **Hello** as input.
 
 ```console
