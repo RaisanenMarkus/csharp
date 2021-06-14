@@ -36,7 +36,7 @@ Console.WriteLine(heikkisAccount);
 Console.WriteLine(heikkisSwissAccount);
 ```
 
-* Write a program that: creates an account with a balance of 100.0, deposits 20.0 in it and finally prints the balance. 
+* Write a program that creates an account with a balance of 100.0, deposits 20.0 in it and finally prints the balance. 
 
 ```console
 120
@@ -47,11 +47,11 @@ Console.WriteLine(heikkisSwissAccount);
 ### EXERCISE 4-02: First Transfer
 
 * The Account from the previous exercise class is also available in this exercise.
-* Write a program that: creates an account named "Heikki's account" with the balance 1000.0. 
+* Write a program that creates an account named "Heikki's account" with the balance 1000.0. 
 * And creates an account named "Personal account" with the balance 0. 
-* Withdraws 100.0 from Heikki's account. 
-* Deposits 100.0 to its own personal account.
-* Prints account information, using ToString, on both first Heikki's then Personal.
+* Withdraw 100.0 from Heikki's account. 
+* Deposit 100.0 to Personal account.
+* Print account information, using ToString, on both first Heikki's then Personal.
 
 ```console
 Heikki's account balance: 900
