@@ -14,7 +14,7 @@ When creating own classes make sure to include the correct **namespace** so you 
 
 You can test your own classes in the Main() if you want to, but it is not necessary. It does help you understand your code and the exercises might include some examples how the classes should work.
 
-### EXERCISE_93:
+### EXERCISE 4-01: First Account
 
 * The exercise template comes with a ready made class named Account. The Account object represents a bank account that has balance. Account that has some amount of money in it. The accounts are used as follows.
 
@@ -44,7 +44,7 @@ Console.WriteLine(heikkisSwissAccount);
 
 **NOTICE!** Perform all the operations in this exact order.
 
-### EXERCISE_94:
+### EXERCISE 4-02: First Transfer
 
 * The Account from the previous exercise class is also available in this exercise.
 * Write a program that: creates an account named "Heikki's account" with the balance 1000.0. 
@@ -58,7 +58,7 @@ Heikki's account balance: 900
 Personal account balance: 100
 ```
 
-### EXERCISE_95:
+### EXERCISE 4-03: First Class
 
 * In this exercise you'll practice creating a class.
 * [**CHECK THIS MATERIAL FOR HELP**](https://raisanenmarkus.github.io/csharp/part4/1/#creating-a-new-class)
@@ -72,7 +72,7 @@ Personal account balance: 100
 
 **NOTICE!** You have to give your Dog class **namespace exercise_95** for it to function!
 
-### EXERCISE_96:
+### EXERCISE 4-04: Classroom
 
 * Create a class named **Room** and file **Room.cs**. 
 * Add the variables **private string code** and **private int seats** to the class. 
@@ -84,7 +84,7 @@ Personal account balance: 100
 
 **NOTICE!** You have to give your room **namespace exercise_96** for it to function!
 
-### EXERCISE_97:
+### EXERCISE 4-05: Whistle
 
 * Create a class named **Whistle**. Add the variable **private string sound** to the class. 
 * After that create the constructor **public Whistle(string whistleSound)**, which is used to create a new whistle that's given a sound. 
@@ -105,7 +105,7 @@ Peef
 Kvaak
 ```
 
-### EXERCISE_98:
+### EXERCISE 4-06: Product
 
 * Create a class **Product** that represents a store product. The product should have a **price (double)**, **quantity (int)** and **name (string)**.
 * The class should have the constructor **public Product(string name, double price, int quantity)*.*
@@ -117,7 +117,7 @@ Banana: price 1.1: 13 pcs
 
 * The output above is based on the product being assigned the name banana, with a price of 1.1 and a quantity of 13.
 
-### EXERCISE_99:
+### EXERCISE 4-07: Counter
 
 * This exercise consists of multiple sections. Each section corresponds to one exercise point.
 * The exercise template comes with a partially executed class **DecreasingCounter**.
@@ -226,7 +226,7 @@ value: 20
 value: 0
 ```
 
-### EXERCISE_100:
+### EXERCISE 4-08: Debt
 
 * Create the class **Debt** that has double type instance variables **balance** and **interestRate**. 
 * The balance and the interest rate are passed to the constructor as parameters **public Debt(double initialBalance, double initialInterestRate)**.
@@ -264,7 +264,7 @@ public static void Main(string[] args)
 147887.0328416936
 ```
 
-### EXERCISE_101:
+### EXERCISE 4-09: Dalmatian
 
 * Create a class called **Dalmatian**. The dalmatian has instance variables **string name** and **int spots**. 
 * Both are set in the **public Dalmatian(string name, int spots)** constructor. 
@@ -279,7 +279,7 @@ Console.WriteLine(spotty.name + " is a very good dog. He has " + spotty.spots + 
 Spot is a very good dog. He has 306 darker spots in his fur.
 ```
 
-### EXERCISE_102:
+### EXERCISE 4-10: Gauge
 
 * Create the class **Gauge**. The gauge has the variable **public int value** and **a constructor without parameters**. Constructor sets the initial value of the meter variable to 0.
 * The class has following three methods. 
@@ -315,7 +315,7 @@ Full! Value: 5
 Not full! Value: 4
 ```
 
-### EXERCISE_103:
+### EXERCISE 4-11: Agent
 
 * The exercise template defines an **Agent** class having a first name and last name. 
 * The Main method tries to print the introduction for mister Bond, but with no luck. 
@@ -338,7 +338,7 @@ My name is Bourne. Jason Bourne.
 
 * Agent's ToString now returns an empty string. Fix it to introduce international agents in their proper form.
 
-### EXERCISE_104:
+### EXERCISE 4-12: Multiplier
 
 * Create a class **Multiplier** as following.
 * Constructor **public Multiplier(int number)**.
@@ -377,7 +377,7 @@ multiplyByFour.Multiply(3): 24
 8 * 1 = 8  
 8 * 3 = 24
 
-### EXERCISE_105:
+### EXERCISE 4-13: Statistics
 
 * The exercise template includes class **Statistics**.
 
@@ -422,7 +422,7 @@ Sum: 11
 * When a number is added, **count** is increased by one.
 * When a number is added, **sum** is increased by the number's value.
 
-### EXERCISE_106:
+### EXERCISE 4-14: Payment Card
 
 * In this exercise series a class called **PaymentCard** is created which aims to mimic a cafeteria's payment process.
 * The template includes the **Program.cs** file. You have to create the **PaymentCard.cs** yourself.
@@ -465,7 +465,7 @@ public static void Main(string[] args)
 The card has a balance of 50 euros
 ```
 
-### EXERCISE_107: 
+### EXERCISE 4-15: Using Card
 
 * Expand your answer from the exercise 106 by adding two methods.
 * Method **public void EatLunch()**
@@ -494,7 +494,7 @@ The card has a balance of 39.4 euros
 The card has a balance of 37.4 euros
 ```
 
-### EXERCISE_108:
+### EXERCISE 4-16: Checking Balance
 
 * Expand your previous answers, so that when an item is bought the balance is checked. 
 * If there is not enough money to buy the balance does not change.
@@ -521,7 +521,7 @@ The card has a balance of 8 euros
 
 **NOTICE!** See how EatLunch() method did not change the balance when there was not enough money. DrinkCoffee() method still worked as it should.
 
-### EXERCISE_109:
+### EXERCISE 4-17: Charging Card
 
 * Expand your previous answers, so that you can charge money on your card.
 
@@ -564,7 +564,7 @@ The card has a balance of 150 euros
 
 ## Objects in a List
 
-### EXERCISE_110:
+### EXERCISE 4-18: Main Class
 
 * Implement the class **Main** described here. **Do not modify the class Item.**
 * Write a program that reads names of items from the user. If the name is empty the program stops reading. 
@@ -585,7 +585,7 @@ Hot Potato (created at: 9.2.2020 13.48.21)
 
 **NOTICE!** The List has to be called "items" for the tests to work!
 
-### EXERCISE_111:
+### EXERCISE 4-19: Personal Infromation Main
 
 * The program described here should be implemented in the class Main. Do not modify the class PersonalInformation.
 * After the user has entered the last set of details, by entering an empty first name, exit the repeat statement. 
@@ -616,7 +616,7 @@ Betty Holberton
 
 **NOTICE!** You can and should ask the identification number as a string.
 
-### EXERCISE_112:
+### EXERCISE 4-20: Television Guide
 
 * In the exercise template there is a ready made class TelevisionProgram representing a television program. 
 * The class has object variables name and duration, a constructor and few methods.
@@ -641,7 +641,7 @@ Rick and Morty, 25 minutes
 Two and a Half Men, 30 minutes
 ```
 
-### EXERCISE_113:
+### EXERCISE 4-21: Book Class
 
 * This exercise is worth 2 sections.
 * Write a program that first reads book information from the user. 
@@ -702,7 +702,7 @@ The Name of the Wind
 
 ## Files and Reading Data
 
-### EXERCISE_114:
+### EXERCISE 4-22: Reading Strings
 
 * Write a program that reads strings from the user until the user inputs the string "end". 
 * At that point the program should print how many strings have been read. 
@@ -730,7 +730,7 @@ The Name of the Wind
 0
 ```
 
-### EXERCISE_115:
+### EXERCISE 4-23: Reading Integers
 
 * Write a program that reads strings from the user until the user inputs the string "end". 
 * As long as the input is not "end" the program should handle the input as an integer and print the cube of the number provided (number * number * number).
@@ -752,7 +752,7 @@ end
 
 **NOTICE!** Remember to convert to integer before calculation!
 
-### EXERCISE_116:
+### EXERCISE 4-24: Reading File
 
 * Write a program that prints the contents of a file called "data.txt" so that each line of the file is printed on its own line.
 * If the file content looks like this.
@@ -767,7 +767,7 @@ In a world
 Where code is built
 ```
 
-### EXERCISE_117:
+### EXERCISE 4-25: File Names
 
 * Write a program that asks the user for a string and then prints the content of a file with a name matching the string provided. 
 * You may assume that the user provides a file name that the program can find. 
@@ -796,7 +796,7 @@ For you and me
 Tieto is here allright!
 ```
 
-### EXERCISE_118:
+### EXERCISE 4-26: Guestlist Txt
 
 * The exercise template comes ready with functionality for the guest list application. 
 * It checks whether names entered by the user are on the guest list.
