@@ -389,7 +389,7 @@ namespace exercise_105
     public int count {get; set;}
     public int sum { get; set; }
 
-    public NumberStatistics()
+    public Statistics()
     {
       // initialize the variable count here
     }
