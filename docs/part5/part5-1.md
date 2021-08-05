@@ -19,68 +19,69 @@ Below is an implementation of the clock with integer type variables. The printin
 
 ```cs
 static void Main(string[] args)
-
-int hours = 0;
-int minutes = 0;
-int seconds = 0;
-
-while (true)
 {
-  // 1. Printing the time
-  if (hours < 10)
+  int hours = 0;
+  int minutes = 0;
+  int seconds = 0;
+
+  while (true)
   {
-    Console.Write("0");
-  }
-  Console.Write(hours);
-
-  Console.Write(":");
-
-  if (minutes < 10)
-  {
-    Console.Write("0");
-  }
-  Console.Write(minutes);
-
-  Console.Write(":");
-
-  if (seconds < 10)
-  {
-    Console.Write("0");
-  }
-  Console.Write(seconds);
-  Console.WriteLine();
-
-  // 2. The second hand's progress
-  seconds = seconds + 1;
-
-  // 3. The other hand's progress when necessary
-  if (seconds > 59)
-  {
-    minutes = minutes + 1;
-    seconds = 0;
-
-    if (minutes > 59)
+    // 1. Printing the time
+    if (hours < 10)
     {
-      hours = hours + 1;
-      minutes = 0;
+      Console.Write("0");
+    }
+    
+    Console.Write(hours);
+    Console.Write(":");
 
-      if (hours > 23)
+    if (minutes < 10)
+    {
+      Console.Write("0");
+    }
+    
+    Console.Write(minutes);
+    Console.Write(":");
+
+    if (seconds < 10)
+    {
+      Console.Write("0");
+    }
+  
+    Console.Write(seconds);
+    Console.WriteLine();
+
+    // 2. The second hand's progress
+    seconds = seconds + 1;
+
+    // 3. The other hand's progress when necessary
+    if (seconds > 59)
+    {
+      minutes = minutes + 1;
+      seconds = 0;
+
+      if (minutes > 59)
       {
-        hours = 0;
+        hours = hours + 1;
+        minutes = 0;
+
+        if (hours > 23)
+        {
+          hours = 0;
+        }
       }
     }
   }
 }
 ```
 
+As demonstrated by reading the example above the functioning of a clock made up of three **int** variables is not very clear to someone reading through the source code. It's difficult to "see" what's going on. 
 
-As demonstrated by reading the example above the functioning of a  clock made up of three **int** variables is not very clear to someone reading through the source code. It's difficult to "see" what's going on. 
-
-A famous [**Programmer**](https://en.wikipedia.org/wiki/Kent_Beck) remarked: *"Any fool can write code that a computer can understand. Good programmers write code that humans can understand"*.
+A famous [**programmer**](https://en.wikipedia.org/wiki/Kent_Beck) remarked: *"Any fool can write code that a computer can understand. Good programmers write code that humans can understand"*.
 
 The aim is to make the program more comprehensible.
 
-Since a clock hand is a clear concept in and of itself, a good idea with regard to the program's understandability would be to turn it into its own class. Let's create a **ClockHand** class describing a clock hand, which contains information about its value, upper limit (i.e. the point at which the value of the hand returns to zero) and provides methods for advancing the hand, viewing its value and printing the value in string form.
+Since a clock hand is a clear concept, a good idea with regard to the program's understandability, would be to turn it into a class. Let's create a **ClockHand** class describing a clock hand, which contains information about its value, upper limit (i.e. the point at which the value of the hand returns to zero) and provides methods for advancing the hand, viewing its value and printing the value in string form.
 
 ```cs
 public class ClockHand
@@ -116,7 +117,7 @@ public class ClockHand
 }
 ```
 
-Once we've created the ClockHand class our clock becomes clearer. Now printing the clock hand is straightforward and the hand's progression is hidden away in the ClockHand class. Since the hand's return to the beginning happens automatically with the help of the upper limit variable defined by the ClockHand class, the way the hands work together is slightly different than in the program implementation that uses integers. The program that used integers looked at whether the value of the integer that represented the clock hand exceeded the upper limit, after which its value was set to zero and the value of the integer representing the next clock hand was incremented. Using clock hand objects the minute hand advances when the second hand's value is zero and the hour hand advances when the minute hand's value is zero.
+Once we've created the ClockHand class our clock becomes clearer. Now printing the clock is straightforward and the hand's progression is hidden away in the ClockHand class. Since the hand's return to the beginning happens automatically with the help of the upper limit variable defined by the ClockHand class, the way the hands work together is slightly different than in the program implementation that uses integers. The program that used integers looked at whether the value of the integer that represented the clock hand exceeded the upper limit, after which its value was set to zero and the value of the integer representing the next clock hand was incremented. Using clock hand objects the minute hand advances when the second hand's value is zero and the hour hand advances when the minute hand's value is zero.
 
 ```cs
 static void Main(string[] args)
