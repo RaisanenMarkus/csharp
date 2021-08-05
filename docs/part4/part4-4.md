@@ -14,7 +14,7 @@ When creating own classes make sure to include the correct **namespace** so you 
 
 You can test your own classes in the Main() if you want to, but it is not necessary. It does help you understand your code and the exercises might include some examples how the classes should work.
 
-### EXERCISE 4-01: First Account
+### EXERCISE 4-1: First Account
 
 * The exercise template comes with a ready made class named Account. The Account object represents a bank account that has balance. Account that has some amount of money in it. The accounts are used as follows.
 
@@ -44,7 +44,7 @@ Console.WriteLine(heikkisSwissAccount);
 
 **NOTICE!** Perform all the operations in this exact order.
 
-### EXERCISE 4-02: First Transfer
+### EXERCISE 4-2: First Transfer
 
 * The Account from the previous exercise class is also available in this exercise.
 * Write a program that creates an account named "Heikki's account" with the balance 1000.0. 
@@ -58,7 +58,7 @@ Heikki's account balance: 900
 Personal account balance: 100
 ```
 
-### EXERCISE 4-03: First Class
+### EXERCISE 4-3: First Class
 
 * In this exercise you'll practice creating a class.
 * [**CHECK THIS MATERIAL FOR HELP**](https://raisanenmarkus.github.io/csharp/part4/1/#creating-a-new-class)
@@ -84,7 +84,7 @@ Personal account balance: 100
 
 **NOTICE!** You have to give your room **namespace exercise_96** for it to function!
 
-### EXERCISE 4-05: Whistle
+### EXERCISE 4-5: Whistle
 
 * Create a class named **Whistle**. Add the variable **private string sound** to the class. 
 * After that create the constructor **public Whistle(string whistleSound)**, which is used to create a new whistle that's given a sound. 
@@ -105,7 +105,7 @@ Peef
 Kvaak
 ```
 
-### EXERCISE 4-06: Product
+### EXERCISE 4-6: Product
 
 * Create a class **Product** that represents a store product. The product should have a **price (double)**, **quantity (int)** and **name (string)**.
 * The class should have the constructor **public Product(string name, double price, int quantity)*.*
@@ -117,7 +117,7 @@ Banana: price 1.1: 13 pcs
 
 * The output above is based on the product being assigned the name banana, with a price of 1.1 and a quantity of 13.
 
-### EXERCISE 4-07: Counter
+### EXERCISE 4-7: Counter
 
 * This exercise consists of multiple sections. Each section corresponds to one exercise point.
 * The exercise template comes with a partially executed class **DecreasingCounter**.
@@ -226,7 +226,7 @@ value: 20
 value: 0
 ```
 
-### EXERCISE 4-08: Debt
+### EXERCISE 4-8: Debt
 
 * Create the class **Debt** that has double type instance variables **balance** and **interestRate**. 
 * The balance and the interest rate are passed to the constructor as parameters **public Debt(double initialBalance, double initialInterestRate)**.
@@ -264,7 +264,7 @@ public static void Main(string[] args)
 147887.0328416936
 ```
 
-### EXERCISE 4-09: Dalmatian
+### EXERCISE 4-9: Dalmatian
 
 * Create a class called **Dalmatian**. The dalmatian has instance variables **string name** and **int spots**. 
 * Both are set in the **public Dalmatian(string name, int spots)** constructor. 
