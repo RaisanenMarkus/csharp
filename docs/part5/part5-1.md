@@ -204,7 +204,7 @@ static void Main(string[] args)
 }
 ```
 
-The clock we implemented above is an object whose functionality is based on "simpler" objects, the hands. This is exactly **the great idea behind ​​Object Oriented Programming: a program is built from small and distinct objects that work together.**
+The clock we implemented above is an object whose functionality is based on "simpler" objects, the hands. This is exactly **the great idea behind Object Oriented Programming: a program is built from small and distinct objects that work together.**
 
 ## Object
 
