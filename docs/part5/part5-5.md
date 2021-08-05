@@ -147,7 +147,7 @@ And the following methods and properties.
 
 ## Objects and References
 
-#### EXERCISE 5-6: Null Reference Exception
+### EXERCISE 5-6: Null Reference Exception
 
 Implement a program that causes the **NullReferenceException** error. The error should occur directly after starting the program -- don't wait to read input from the user, for instance.
 
