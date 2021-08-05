@@ -10,7 +10,7 @@ published: true
 
 ## Object Oriented Revision
 
-### EXERCISE_119:
+### EXERCISE 5-1: One Minute
 
 The exercise template comes with the **ClockHand** class described in the course material. Implement a **Timer** class based on the material's Clock class.
 
@@ -50,7 +50,7 @@ static void Main(string[] args)
 }
 ```
 
-### EXERCISE_120:
+### EXERCISE 5-2: Cube
 
 Create a **Cube** class that represents a cube. 
 
@@ -58,7 +58,7 @@ Create a **Cube** class that represents a cube.
 * Make a **public int Volume()** method for the cube, which calculates and returns the cube's volume. The volume of the cube is calculated with the formula **edgeLength * edgeLength * edgeLength**. 
 * Moreover make a **public override string ToString()** method for the cube, which returns a string representation of it. The string representation should take the form **"The length of the edge is l and the volume v"**. Where l is the length and v the volume. Both the length and volume must be represented as integers.
 
-### EXERCISE_121:
+### EXERCISE 5-3: Fitbyte
 
 [**The Karvonen method**](https://en.wikipedia.org/wiki/Heart_rate#Karvonen_method) allows you to calculate your target heart rate for physical exercise. The target heart rate is calculated with the formula **(maximum heart rate - resting heart rate) * (target heart rate percentage) + resting heart rate** where the target heart rate is given as a percentage of the maximum heart rate.
 
@@ -102,7 +102,7 @@ Target 99.99999999999999% of maximum: 184.97000000000003
 
 ## Overloading
 
-### EXERCISE_122:
+### EXERCISE 5-4: Constructor Overload
 
 The exercise template has a **Product** class, which represents a product in a shop. Every product has a name, location and weight.
 
@@ -130,7 +130,7 @@ Plaster (1 kg) can be found from the home improvement section.
 Tyre (5 kg) can be found from the warehouse.
 ```
 
-### EXERCISE_123:
+### EXERCISE 5-5: Overloaded Counter
 
 Implement a class called **Counter**. The class contains a number, whichs value can be increased and decreased. The class must have the following constructors.
 
@@ -147,13 +147,13 @@ And the following methods and properties.
 
 ## Objects and References
 
-#### Exercise_124
+#### EXERCISE 5-6: Null Reference Exception
 
 Implement a program that causes the **NullReferenceException** error. The error should occur directly after starting the program -- don't wait to read input from the user, for instance.
 
 HINT! Change an object into null, and try to use it.
 
-#### Exercise_125
+### EXERCISE 5-7: Health Station
 
 In the exercise base there is the class **Person**, which we are already quite familiar with. There is also an outline for the class **HealthStation**. Health station objects process people in different ways, they e.g. weigh and feed people. In this exercise we will construct a health station. The code of the Person class should not be modified in this exercise!
 
@@ -215,7 +215,7 @@ Peter weight: 177 kilos
 weighings performed: 8
 ```
 
-#### Exercise_126
+### EXERCISE 5-8: Card Payments
 
 In a previous exercises part we created a class called **PaymentCard**. The card had methods for Eating a lunch and drinking coffee, and also for adding money to the card.
 
@@ -447,7 +447,7 @@ amount of money on the card is 91.7 euros
 money: 1100, number of sold coffees: 0, number of sold lunches: 1
 ```
 
-#### Exercise_127
+#### EXERCISE 5-9: Biggest Pet Shop
 
 Two classes, Person and Pet, are included in the exercise template. Each person has one pet. Modify the **public override string ToString** method of the **Person class** so that the string it returns tells the pet's name and breed in addition to the person's own name.
 
@@ -473,7 +473,7 @@ Lilo, has a friend called Stitch (blue alien)
 Mike, has a friend called Toothless (dragon)
 ```
 
-#### Exercise_128
+#### EXERCISE 5-10: Comparing Apartments
 
 Fill in the method **public bool LargerThan(Apartment compared)** that returns true if the apartment object whose method is called has a larger total area than the apartment object that is being compared.
 
@@ -530,7 +530,7 @@ False
 True
 ```
 
-#### Exercise_129
+#### EXERCISE 5-11: Song
 
 In the exercise base there is a class called **Song** that can be used to create new objects that represent songs. Add to that class the **Equals** method so that the similarity of songs can be examined.
 
@@ -555,7 +555,7 @@ public static void Main(string[] args)
 }
 ```
 
-#### Exercise_130
+#### EXERCISE 5-12: Books
 
 There is a program in the exercise base that asks for books from the user and adds them to a list.
 
@@ -583,7 +583,7 @@ Name (empty will stop):
 Thank you! Books added: 2
 ```
 
-#### Exercise_131
+#### EXERCISE 5-13: Archive
 
 The program should read items from the user. When all the items from the user have been read, the program prints the information of each item.
 
@@ -625,7 +625,7 @@ If the user enters the same item multiple times, the print uses the item that wa
 
 Hint! It is probably smart to add each item to the list at most once -- compare the equality of the objects based on their identifiers.
 
-#### Exercise_132
+#### EXERCISE 5-14: Dating App
 
 This exercise is worth 2.
 
@@ -767,7 +767,7 @@ After one week: 20.2.2015
 
 This is because a normal assignment only copies the reference to the object. So the objects now and afterOneWeek in the program now refer to the **one and same SimpleDate object**.
 
-#### Exercise_133
+#### EXERCISE 5-15: Money
 
 This exercise is worth 2.
 
