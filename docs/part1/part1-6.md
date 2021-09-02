@@ -38,7 +38,7 @@ namespace exercise_01
 **I was falling in love**  
 **Now I'm only falling apart**
 
-Now I'm only falling apart
+* Note: You must type the ' apostorphe mark and not copy it. 
 
 ### EXERCISE 1-3: Bonnie Tyler Line Change
 * Let's refine our program. Print the same message. This time use only one Console.WriteLine method. 
@@ -46,6 +46,8 @@ Now I'm only falling apart
 **Once upon a time**  
 **I was falling in love**  
 **Now I'm only falling apart**  
+
+* Note: You must type the ' apostorphe mark and not copy it. 
 
 ### EXERCISE 1-4: First Variable
 * The exercise has following structure.
