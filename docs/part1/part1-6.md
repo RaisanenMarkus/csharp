@@ -36,7 +36,8 @@ namespace exercise_01
   
 **Once upon a time**  
 **I was falling in love**  
-**Now I'm only falling apart** 
+**Now I'm only falling apart**
+’ ' 
 **Now I'm only falling apart**
 
 ### EXERCISE 1-3: Bonnie Tyler Line Change
