@@ -37,8 +37,10 @@ namespace exercise_01
 **Once upon a time**  
 **I was falling in love**  
 **Now I'm only falling apart**
-**Now I'm only falling apart**
- **(' or ’)** 
+
+**Now I'm only falling apart** 
+
+**(' or ’)** 
 
 ### EXERCISE 1-3: Bonnie Tyler Line Change
 * Let's refine our program. Print the same message. This time use only one Console.WriteLine method. 
