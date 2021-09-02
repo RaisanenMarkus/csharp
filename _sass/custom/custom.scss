@@ -8,6 +8,10 @@ code {
   line-height: $body-line-height;
 }
 
+p {
+    font-family: $mono-font-family;
+}
+
 .nav-list {
   .nav-list-item{
     .nav-list-expander{
