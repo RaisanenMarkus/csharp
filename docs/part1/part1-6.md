@@ -659,4 +659,5 @@ Total sum of numbers: 25
 Total amount of numbers: 3
 ```
 
+
 * Hint: You will need two variables to store the data. One for the sum and one for the amount.
